@@ -1,0 +1,1508 @@
+﻿html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, img {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 0px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; }
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 0px; -moz-box-shadow: 0px 0px 0px red; -webkit-box-shadow: 0px 0px 0px red; box-shadow: 0px 0px 0px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: none; }
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+ol,ul{list-style:none; margin:0; padding:0}
+
+body, select, input, textarea { color: #030303; font-family:Arial, Helvetica, sans-serif }
+h1, h2, h3, h4, h5, h6 { font-weight: normal }
+a, a:active, a:visited { color: #044e9a; text-decoration:none }
+a:hover { color: #044e9a; text-decoration:underline}
+
+/* 
+	Web: http://sportsport.ba
+	Author: Lampa Studio d.o.o. - www.lampa.ba
+*/
+/*
+	LINKS
+*/
+a.white:link{color:#FFF;text-decoration:none;}
+a.white:visited{text-decoration:none;color:#FFF;}
+a.white:hover{text-decoration:underline;color:#FFF;}
+a.white:active{text-decoration:none;color:#FFF;}
+a.black:link{color:#171509;text-decoration:none;}
+a.black:visited{text-decoration:none;color:#171509;}
+a.black:hover{text-decoration:underline;color:#171509;}
+a.black:active{text-decoration:none;color:#171509;}
+
+/*
+	HELPERS
+*/
+.right{text-align:right}
+.left{text-align:left}
+.center{text-align:center}
+.floatright{float:right}
+.floatleft{float:left}
+.clearfloat{clear:both;height:0;font-size:1px;line-height:0;margin:0;padding:0}
+.font30{font-size:30px}
+.font24{font-size:24px}
+.font22{font-size:22px}
+.font20{font-size:20px;line-height:23px}
+.font18{font-size:18px}
+.font16{font-size:16px}
+.font14{font-size:14px}
+.font12{font-size:12px}
+.font11{font-size:11px}
+.underline{text-decoration:underline}
+.uppercase{text-transform:uppercase}
+.lowercase{text-transform:lowercase}
+.bold{font-weight:bold}
+a.no_cursor{cursor:text;text-decoration:none}
+.border_radius_five{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+
+/*
+	ARROWS
+*/
+.more_arrows{background:url(../img/more_arrows.png) no-repeat 0 0;width:6px;height:5px;display:inline-block;margin:0 0 1px 5px}
+.ie7 .more_arrows{margin:0 0 4px 9px}
+.ie6 .more_arrows{margin:0 0 -8px 9px}
+.sport_4_arrow,.sport_5_arrow{background-position:0 0}
+.sport_6_arrow,.sport_7_arrow{background-position:-7px 0}
+.sport_8_arrow{background-position:-14px 0}
+.sport_129_arrow{background-position:-21px 0}
+.sport_9_arrow{background-position:-28px 0}
+.sport_10_arrow{background-position:-35px 0}
+.sport_11_arrow{background-position:-42px 0}
+.sport_198_arrow{background-position:-21px 0}
+.sport_199_arrow{background-position:-77px 0}
+.black_arrow,.sport_198_arrow{background-position:-70px 0}
+.black_arrow{background-position:-49px 0}
+.white_arrow{background-position:-56px 0}
+.grey_arrow{background-position:-63px 0}
+/*
+	GREY DROPDOWN
+*/
+.dropdown ul{margin-left:-6px;display:block;position:absolute;z-index:99;overflow:hidden;height:16px;width:113px;background:none;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;cursor:pointer;color:#666;top:7px;text-align:left;font-size:10px;padding:0 6px}
+.dropdown ul.hover{border:1px #ccc solid;padding-bottom:6px;overflow:visible;width:153px;height:auto;background-color:#f3f3f3;font-size:10px}
+.dropdown ul li{display:block;cursor:pointer;float:none;border:0;background:none;padding:0 0}
+.dropdown ul li.selected{background:url(../images/grey_arrow_down.png) no-repeat 73px 8px;color:#8b8b8b;padding:3px 0}
+.dropdown ul li.selected:hover{text-decoration:underline}
+.dropdown ul.hover li.selected{color:#373737;background:url(../images/black_arrow_down.png) no-repeat 143px 8px;padding:3px 0}
+.dropdown ul li a{display:block;color:#333;cursor:pointer;margin-bottom:0;padding:3px 6px; height: 13px}
+.dropdown ul li a img{float:left;margin-right:5px}
+.dropdown ul li hr{margin:5px 6px}
+
+/*
+	CSS TABS
+*/
+ul.css-tabs{height:23px;width:303px;margin:0 !important;padding:0}
+ul.css-tabs li{float:left;list-style-type:none;margin:0;padding:0}
+ul.css-tabs a{float:left;font-size:11px;display:inline;text-decoration:none;height:17px;width:99px;background-color:#a5a6aa;position:relative;outline:0;text-transform:uppercase;text-align:center;color:#010101;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;-webkit-border-radius-topleft:5px;-webkit-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px;margin-right:3px;padding:6px 0 0}
+ul.css-tabs a.last{margin-right:0;padding-left:9px;width:90px}
+ul.css-tabs a:hover{color:#333;background-color:#fff}
+ul.css-tabs a.current{background-color:#fff;font-weight:700;cursor:default;color:#000}
+.css-panes div.content{display:none;background-color:#fff;height:550px;width:289px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;font-size:11px;padding:0 0}
+.ie6 .css-panes div.content{margin-top:-20px}
+.tab_content_ul{}
+.tab_content_ul li{color:#6b6b6b;margin:5px 0}
+.tab_content_ul li .title{width:230px;display:inline-block;}
+.tab_content_ul li time{font-size:10px;margin-right:10px;text-align:left;float:left;padding-top:1px} 
+a.fb_tab{background-image:url(../images/fb_14x14_ico.png);background-repeat:no-repeat;background-position:6px 5px}
+ul.css-tabs a.my_friends{padding-left:0;width:99px}
+
+.tabela_forum{width:265px;margin-top:6px}
+.tabela_forum td{color:#6b6b6b;padding:3px 0 2px 0}
+.tabela_forum td.time{width: 36px}
+.tabela_forum td time{font-size:10px;margin-right:10px;text-align:left}
+.tabela_forum a.poster{color:#6b6b6b}
+
+.right_box_content{background:#fff;height:248px; -moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px; padding-top:7px}
+.right_box_content .more{color:#000;font-size:12px;font-weight:700;float:right;margin:5px 7px 0 0}
+
+body{text-align:center;background:#d7d6d6 url(../img/container-bg.png) repeat-x 215px 0;font-size:11px}
+.ie6 body{background-image:none}
+#msg_to_visitor{color:#fff;background:#db002c; text-align: center;display:none;line-height: 20px; z-index: 1000; position: relative}
+#container{width:660px;text-align:left;margin:7px auto 0}
+#container_1020{width:1020px;text-align:center;margin:7px auto 0}
+#container_1020 #footer{margin-left: 180px}
+#header{background:#000 url(../images/header-pic-bg-2.jpg) no-repeat 0 0;height:50px;margin-bottom:5px;border-bottom:1px solid #000}
+#top_logo img{float:left;margin-right:8px}
+#gt_emblems_line{height:32px;width:970px;text-align:left;margin:0 auto}
+hr.gt_emblems_line_hr{border-top:1px solid #303030;margin:0}
+#login_sn_line{height:16px;width:970px;margin:0 auto;padding:3px 0}
+
+hr.login_sn_line_hr{border-top:1px solid #575757;margin:0}
+.ie6 hr.login_sn_line_hr,.ie6 hr.gt_emblems_line_hr,.ie7 hr.login_sn_line_hr,.ie7 hr.gt_emblems_line_hr{margin:-7px 0 -7px 0}
+#login_sn_line a,#gt_emblems_line a{color:#8b8b8b}
+#login_sn_line .link{height:15px;border-right:1px solid #303030;float:left;margin:0 0 0 0;padding:1px 7px 0 7px}
+#login_sn_line a.numb_new_msg,#login_sn_line a.username{color:#fff}
+#login_sn_line .cities{float:left;width: 451px}
+#login_sn_line .cities a{display:inline-block;padding:1px 12px 0}
+#login_sn_line .cities a.my_ss{color:#fff}
+#gt_emblems_line,#login_sn_line{font-size:10px;color:#8b8b8b}
+.logo_tabs_search_line{height:38px;width:960px;margin:0 auto;padding:9px 4px 0 4px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px}
+#banner_968_container{width:100%;margin:0 auto;background:#e4e4e4;text-align:center;border-bottom:1px solid #000;display:block;text-align:center;background:none;border:0;padding-top:0px}
+#dt_top_billboard{width:970px;margin:0 auto;display:block;text-align:center;margin-top: 7px}
+.video_home_page_zone{background:#000 !important}
+.floating_banner_left{position:fixed;width:200px;margin-left:-690px;left:50%;top:137px;text-align:right}
+.floating_banner_right{position:fixed;width:200px;margin-right:-690px;right:50%;top:137px;text-align:left}
+.floating_banner_left a,.floating_banner_right a{width:200px;height:800px;display:block}
+
+.more_sports_options,.mobile,.club_emblems_options{height:22px;border-right:1px solid #303030;padding:10px 10px 0 7px;float:left}
+.mobile{padding:10px 10px 0 10px}
+.club_emblems_options{border-right:0;width:100px;padding-left:10px}
+.club_emblems{padding:0;float:left;margin-left:40px}
+.fbih_club_emblems{padding:0;float:left;margin-left:31px}
+.more_sports_options,.more_sports_options .dropdown ul{width:75px}
+.more_sports_options .dropdown ul.hover{width:130px}
+.more_sports_options .dropdown ul li.selected{background-position:68px 8px}
+.more_sports_options .dropdown ul.hover li.selected{background-position:123px 8px}
+.google_translate_options .dropdown ul li.selected{background-position:87px 8px}
+.more_city_options,.google_translate_options{padding:0;float:none;border:0;width:auto}
+.more_city_options,.more_city_options .dropdown ul{width:63px}
+.ie7 .google_translate_options .dropdown ul,.ie6 .google_translate_options .dropdown ul{margin-left:-60px}
+.ie7 .more_city_options .dropdown ul,.ie6 .more_city_options .dropdown ul{margin-left:-40px}
+.more_city_options .dropdown ul:hover{width:177px}
+.more_city_options{border-right:1px solid #303030;padding:4px 0 6px 0;height: 10px}
+.more_city_options .dropdown ul li.selected{background-position:55px 8px}
+.more_city_options .dropdown ul.hover li.selected{background-position:167px 8px}
+.google_translate_options,.google_translate_options .dropdown ul{width:95px;z-index:999;}
+.google_translate_options .dropdown ul.hover{width:97px}
+.dropdown ul:hover li a{color:#373737}
+.dropdown ul li a:hover{background:#000;text-decoration:none;color:#FFF;border-bottom:0}
+
+.table_dropdowns{float:right;margin:-3px -4px -6px 0}
+.table_dropdowns td{padding:4px 10px 0 10px;height:18px}
+.table_dropdowns .dropdown ul{top:1px}
+
+#container_left{width:660px;margin-right:7px;float:left;text-align:left}
+.ie6 #container_left{margin:0}
+#container_right{width:303px;float:right;margin-bottom:20px}
+/*
+	GRBOVI PL BiH
+*/
+.club_emblems a{background:url(../images/pl_bih_emblems.png) no-repeat 0 0;display:inline-block;height:16px;width:16px;margin:0}
+.club_emblems li{display:inline;height:16px;width:16px;float:left;margin:0 1px;padding:8px 12px 6px}
+.club_emblems li:hover{background:url(../images/emblems_glow.png) no-repeat center 1px}
+a.club_ico_fkrudar{background-position:0 0}
+a.club_ico_fkvelez{background-position:-43px 0}
+a.club_ico_fksarajevo{background-position:-85px 0}
+a.club_ico_nkzvijezda{background-position:-128px 0}
+a.club_ico_fkdrina{background-position:-171px 0}
+a.club_ico_fkolimpic{background-position:-214px 0}
+a.club_ico_nksiroki{background-position:-256px 0}
+a.club_ico_hskzrinjski{background-position:-299px 0}
+a.club_ico_fkzeljeznicar{background-position:-342px 0}
+a.club_ico_fkborac{background-position:-385px 0}
+a.club_ico_fksloboda{background-position:-426px 0}
+a.club_ico_fkslavija{background-position:-470px 0}
+a.club_ico_nktravnik{background-position:-513px 0}
+a.club_ico_nkcelik{background-position:-556px 0}
+a.club_ico_fkleotar{background-position:-598px 0}
+a.club_ico_fkbuducnost{background-position:-643px 0}
+li.last_club{padding-right:2px}
+.club_emblems li.last_club:hover{background-position:5px 1px}
+/*
+	GRBOVI FBiH
+*/
+.fbih_club_emblems a{background:url(../images/fbih_emblems.png) no-repeat 0 0;display:inline-block;height:16px;width:16px;margin:0}
+.fbih_club_emblems li{display:inline;height:16px;width:16px;float:left;margin:0 1px;padding:8px 12px 6px}
+.fbih_club_emblems li:hover{background:url(../images/emblems_glow.png) no-repeat center 1px}
+a.club_ico_fkbosnav{background-position:0 0}
+a.club_ico_hnkbranitelj{background-position:-43px 0}
+a.club_ico_nkbratstvo{background-position:-86px 0}
+a.club_ico_fkbuducnost2{background-position:-129px 0}
+a.club_ico_nkcapljina{background-position:-173px 0}
+a.club_ico_nkiskra{background-position:-215px 0}
+a.club_ico_nkjedinstvo{background-position:-257px 0}
+a.club_ico_fkkrajina{background-position:-299px 0}
+a.club_ico_nkkrajisnik{background-position:-342px 0}
+a.club_ico_nkpodgrmec{background-position:-385px 0}
+a.club_ico_fkradnicki{background-position:-427px 0}
+a.club_ico_fkrudark{background-position:-470px 0}
+a.club_ico_fksloboda2{background-position:-512px 0}
+a.club_ico_nktroglav{background-position:-556px 0}
+a.club_ico_nkvitez{background-position:-599px 0}
+a.club_ico_fkgorazde{background-position:-643px 0}
+
+/*
+	MAIN TABS
+*/
+#tabs{float:left;margin:14px 0 0 60px}
+#tabs a{display:block;font-size:12px;font-weight:700;width:98px;text-align:center;height:19px;color:#000;text-transform:uppercase;padding:5px 0 0;-webkit-border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;}
+#tabs li{float:left;margin:0 0 0 3px}
+#tabs a.tables{background:#f3c000}
+#tabs a.recreation{background:#beda86}
+#tabs a.video{background:#c0daeb;color:#003d75}
+#tabs a.livescore{background:#db002c;color: #fff}
+#tabs a.tables:hover,#tabs a.tables_selected{background:#ffcc00}
+#tabs a.recreation:hover,#tabs a.recreation_selected{background:#cae692}
+#tabs a.video:hover{background:#cce6f7}
+#tabs a.livescore:hover{background:#af0023}
+#tabs a.latest{background:#f3f3f3}
+#tabs a.latest:hover,#tabs a.latest_selected{background:#fff} 
+/*
+	PRETRAGA
+*/
+#search_form{float:right;margin:7px 0 0}
+#search_form input{width:220px;padding-left:5px;padding-right:5px;height:18px;font-size:12px;color:#b6b8b5}
+.search_icon{position:relative;margin:-18px 0 0 215px}
+/*
+	LOGIN FORMA
+*/
+#login_form{float:left;margin:0 0 0 7px}
+#login_form #username,#login_form #password{float:left;height:12px;background-color:#000;border:1px solid #303030;color:#575757;width:125px;margin:0 6px 0 0}
+#login_form #login_btn{background-color:#000;color:#575757;border:1px solid #303030;height:16px;margin:0 0 0}
+#login_form label{display: block; float:left; height:7px;padding:1px 4px 0 0}
+/*
+	POSITIONS 1,2,3,4 + VIDEO INDEX
+*/
+#position_one_video_columns{width:357px;margin-right:7px;float:left}
+#position_one_video{height:438px;margin:0 0 7px}
+.position_one{height:323px;width:357px}
+.ie6 .position_one{width:356px}
+.position_one .pic,.position_one #_ss_player{border:1px solid #000;margin-bottom:7px;padding-top:7px}
+.position_one a{color:#fff}
+.position_one h3{font-size:10px;color:#d6d6d6;margin-top:-2px}
+.position_one h2{font-size:13px;font-weight:700;text-transform:none;display:block;margin:1px 0 0;line-height:15px}
+.position_one time{font-size:10px;color:#6b6b6b;padding-top:5px;display:inline-block}
+.position_one .intro{line-height:15px;display:block;margin:6px 10px 0 10px; color:#fff}
+.position_one header{padding:0 10px}
+.position_one hgroup{color:#FFF}
+#position_2345{width:294px;background-color:#FFF;float:left;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;padding:7px}
+#position_2345 .more{color:#000;font-size:12px; font-weight:bold; float:right; margin:-2px 1px 0 0}
+#video_black_box_index{margin:9px 0 0 0; font-size:12px; font-weight:bold; border-top:0px solid #71717e; padding:3px 0 0 0}
+#video_black_box_index h2{margin-left:4px;font-weight:normal;font-size:11px;padding-right:5px;line-height:15px}
+#video_black_box_index li{float:left}
+#video_black_box_index a {background-color:#000;color:#a2a2a2;float:left;display:inline;margin:0 3px 0 0;width:87px;height:108px;cursor:pointer}
+#video_black_box_index #art_4 a{margin:0}
+#video_black_box_index a:hover,#video_black_box_index a.selected{background-color:#000;text-decoration:none;color:#c0c0c0;outline:1px solid #db002c}
+#video_black_box_index li img{margin:7px 1px 7px 1px}
+.level_2 #position_2345,.training_page #position_2345{height:465px}
+.level_2 #position_one_video,.training_page #position_one_video{height:313px;margin-top:-7px;background-color:#1c6a08;padding-top:7px;border:1px solid #000;border-top:0}
+.level_2 .position_one .pic,.training_page .position_one .pic{border:0;border-top:1px solid #000;border-bottom:1px solid #000;padding-top:0px}
+
+#video_black_box_index .selected_arrow,#video_box_index .selected_arrow{position:absolute;margin:-5px 0 0 40px; display:none}
+#video_black_box_index #art_1 .selected_arrow,#video_box_index #art_1 .selected_arrow{display:block}
+#video_black_box_index .photo_rot, #video_box_index .photo_rot, #tifo_box .photo_rot{background-color: #000;padding: 2px; display:inline-block; margin: 0; float: right !important }
+#video_black_box_index .video_rot, #video_box_index .video_rot, #tifo_box .video_rot{background-color: #000;padding: 2px;display:inline-block;margin: 0 ; float: right !important}
+#video_black_box_index .icons,#video_box_index .icons{position:absolute;margin: 48px 0 0 48px;padding-left:3px; width: 32px; }
+/*
+	NEWS INTRO
+*/
+.by_author{font-size:10px;color:#6b6b6b}
+.news_intro{border-bottom:1px solid #b9b8be;height:143px;width:281px;margin:0 0 7px}
+.news_intro h3,.archive_news_intro h3{font-size:10px; margin-bottom: 1px}
+.news_intro h2,.archive_news_intro h2{font-size:13px;font-weight:700;text-transform:none;display:block;margin:0 0 0;line-height:15px}
+.news_intro hgroup{height:72px}
+.news_intro .pic{border:1px solid #1c1b20;float:right;margin:0 0 0 7px}
+.news_intro time,.archive_news_intro time{font-size:10px;color:#6b6b6b}
+.news_intro .intro{line-height:15px;display:block;margin:8px 0 0;height:46px}
+.news_intro .more_arrows{float:right;margin-right:5px}
+.position_one a.more_arrows{margin:0 0 1px 3px}
+#position_2345 .news_intro .more_arrows{margin-top:-6px}
+.level_2 #position_2345 .more{margin-top:-1px}
+.news_intro time.soon_story,.position_one time.soon_story{background-color:#db002c;color:#fff;padding:0 2px;width:auto}
+.position_one time.soon_story{width:170px;margin:6px 0 0 0}
+/*
+	COLUMNS
+*/
+#columns,#columns_level_2{width:345px;height:162px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-color:#FFF;padding:10px 5px;border:1px solid #fff}
+.ie6 #columns,.ie6 #columns_level_2{width:345px;padding:9px 3px}
+#columns a{color:#000}
+#columns .border,#columns_level_2 .border{border-right:1px solid #b8b8be}
+#columns .more,#columns_level_2 a.more{font-size:12px;font-weight:700;float:right;margin-right:3px; color: #000}
+.column_item{width:159px;height:130px;float:left}
+.column_item_left{padding-right:13px}
+#columns .column_item_left a.more,#columns_level_2 .column_item_left a.more{margin-right: -5px}
+#columns .column_item_right a.more,#columns_level_2 .column_item_right a.more{margin-right: -6px}
+.column_item_right{padding-left:5px}
+.column_item .title{font-size:12px;font-weight:700;height:55px;display:block;line-height:15px;margin:0px 3px 0 0;width: 168px}
+.column_item img{float:left;border:0;margin:0 7px 0 4px}
+.column_item .title img{float: none;margin-right: 0}
+.column_item .intro{line-height:15px;margin:8px 0 17px 4px;padding-right:5px;height:55px}
+.column_item .column_title{text-transform:uppercase;color:#000;font-weight:700;display:block;margin:0 0 6px 4px}
+#columns_level_2{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:1px solid #000;width:345px;height:142px;color:#fff;padding:7px 5px}
+#columns_level_2 a{color:#fff}
+#columns_level_2 .column_item .intro{margin:8px 0 0px 4px;height:49px}
+#columns_level_2 .column_item img{border:1px solid #000}
+#columns_level_2 .column_item .title img{border: 0}
+#columns_level_2 .column_item .title{width: 168px}
+/*
+	RIGHT BOX
+*/	
+.right_box{background-color:#FFF;width:283px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;margin-bottom:7px;text-align:left;font-size:11px;padding:10px}
+.right_box h2,.rounded_box_title{font-size:11px;text-transform:uppercase;color:#000;font-weight:700;margin:0 0 18px 4px}
+.right_box h2 a{color:#000}
+#related_news_box.right_box .news_intro h2 a{text-transform:none;line-height:15px}
+.rounded_box{padding:7px;background-color:#FFF;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;margin-bottom:7px;text-align:left}
+
+/*
+	ANKETA
+*/
+#voting_box ul{margin-left:81px;min-height:111px}
+#voting_box li{padding:4px 0; font-size: 11px; vertical-align:middle;width:200px;list-style:none;list-style-type:none}
+#voting_box li img{display:inline;margin:3px 3px 0 0;float:left}
+#voting_box input{margin:0 7px 0 0; float:left}
+#voting_box li.question{font-weight:bold; color:#000; padding:0 0 15px 0;font-size:12px}
+.anketa_icon{float:left;margin-right: 10px;}
+.poll_archive{padding:7px 0;margin:0 7px;border-top:1px solid #ccc}
+.poll_archive li{padding-bottom:5px}
+.poll_archive li time{font-size:10px;width:50px;margin-right:8px;display:inline-block}
+/*
+	FB LIKE PAGE
+*/
+#fb_like_box_page{padding:4px;width:295px; min-height: 215px}
+/*
+	SEDMERAC
+*/
+#seven_days_box{padding-bottom:20px}
+#seven_days_box .date,#seven_days_box .day{font-size:11px;display:inline-block}
+#seven_days_box .date{margin-left:-3px;font-family:Verdana;font-size:0.8em}
+#seven_days_box .day{text-transform:uppercase;font-weight:700;color:#db002c ;width:24px;padding:0 15px 0 14px}
+#seven_days_box ul{width:303px;margin:0 0 0 -10px}
+.ie6 #seven_days_box ul{width:290px}
+#seven_days_box li{display:block;background-color:#eaeaea;border-bottom:1px solid #FFF;padding:8px 10px 7px 10px}
+#seven_days_box li.zebra{background-color:#f6f6f6}
+/*
+	DVA LICA
+*/
+#two_faces_box a{color:#000}
+#two_faces_box .ico{float:left;margin:0 8px 20px 0}
+#two_faces_box span{display:block}
+#two_faces_box .title{font-size:12px;font-weight:700;margin:0 0 5px}
+#two_faces_box time{font-size:10px;margin:0 0 5px;display:block;color:#6b6b6b}
+#two_faces_box .intro{line-height:15px;height:60px}
+#two_faces_box .more_arrows{float:right;margin-right:5px}
+#two_faces_box li{margin-bottom:15px;width:280px}
+/*
+	ADS 300x250 | 160x600 | 660x90
+*/
+.ads300x250_box{margin:0 0 7px 0;font-size:9px;color:#969696;padding:0 1px;width:300px;z-index:1}
+.ads300x250_box p,#ads160x600_box p{margin:0 0 4px;text-align:center}
+.ads300x250_box a,#ads160x600_box a{color:#969696}
+.ads300x250_box a:hover,#ads160x600_box a:hover{color:#414143}
+#ads160x600_box{font-size:9px;color:#969696;margin-left:4px;}
+#ads160x600_box span{border:1px solid #ccc;display:block;width:160px;height:600px}
+.ads_660x90{margin-top: 7px; margin-bottom: -2px}
+#category_texts .ads_660x90{margin:-4px 0 0 0; padding: 14px 0; background: url('../images/banner_660_90_bg.png') no-repeat 0 0}
+
+/*
+	DOSIJE
+*/
+#files_box{width:281px;border:1px solid #FFF;background-color:#eaeaea;margin-bottom:7px;font-size:12px;padding:5px 10px}
+#files_box li{padding:5px 0 4px 8px}
+#files_box li.title{font-weight:700;color:#000;padding:5px 0 8px}
+#files_box a{color:#313131}
+#files_box a.hot_file_title,#files_news a.hot_file_title{color:#db002c;font-weight:700}
+#files_box a mark{background:none;font-style:normal;font-weight:normal;color:#db002c}
+img.hot_ico{display:inline;margin:0 0 -1px 5px}
+/*
+	SOCIJALNE MREŽE
+*/
+#sn_box{height:60px}
+#sn_box a{font-size:12px;font-weight:700;color:#000;height:20px;background:url(../images/sn_icons.png) no-repeat 0 0;display:block;border-bottom:1px solid #b9b8be;margin:0 0 7px;padding:5px 0 5px 30px}
+#sn_box a.twitter{background-position:0 -35px;border:0;margin:0}
+/*
+	TABELE BOX
+*/
+#latest_tabs_box,#forum_box,#tables_box{width:303px;margin-bottom:7px;text-align:left;padding:0}
+#tables_box .css-panes div{height:auto;width:303px;padding:10px 0 6px 0}
+#tables_box .css-panes div ul{border:0}
+#tables_box .choose_league,#video_latest_tabs_box .choose_league{height:70px;padding:0 10px}
+#tables_box .choose_league li,#video_latest_tabs_box .choose_league li{text-align:right}
+#video_latest_tabs_box .choose_league li{width:276px}
+#tables_box .choose_league label,#video_latest_tabs_box .choose_league label{font-weight:700}
+#tables_box select,#video_latest_tabs_box .choose_league select{width:150px;color:#666;margin-bottom:5px}
+.full_table a{color:#000;font-size:12px;font-weight:700}
+.full_table{margin:5px 7px 0 7px;display:block;border-top:1px solid #b9b8be;padding:5px 0 0 203px}
+.tabs_categories {margin-bottom: 10px;font-size: 12px;color:#656565;}
+.tabs_categories span{display:none;padding-left: 10px}
+.tabs_categories a{color:#656565; padding: 0 10px 0 9px; display: inline-block}
+.tabs_categories a.selected{color: #6e6e6e;font-weight:bold}
+#homepage .right_box_content{height: 272px}
+/*
+	NEWSLETTER SIGNUP
+*/
+#newsletter_signup{background:#db002c;color:#ffd1d1}
+#newsletter_signup a{color:#fff;text-decoration:underline}
+#newsletter_signup p{line-height:14px}
+#mce-EMAIL{width:220px;height:22px;line-height:22px;border:1px solid #ffd1d1;display:block;margin:0;padding:0 5px}
+#mc_embed_signup label{color:#fff;text-transform:uppercase;font-weight:700;font-size:12px;display:block;margin:15px 0}
+#mc_embed_signup .button{background:#a6a6a6;color:#fff;border:0;font-size:18px;font-weight:700;width:180px;text-align:center;height:34px;line-height:34px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:8px 0 3px;padding:0}
+#mc_embed_signup .button:hover{background:#000}
+.footer_links a{display:block;margin:5px 0 0}
+.newsletter_logo{margin-bottom:5px}
+/*
+	REKREACIJA + BODY BOX
+*/
+#category_texts{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-color:#FFF;margin:7px 0;padding:7px 0 1px 0;float:none;width:660px}
+#recreation_body_box{background-color:#eaeaea;height:160px;width:660px;margin:0 0 9px 0}
+#recreation_body_box a{color:#3f3f3f}
+#recreation_body_box ul{float:left;width:305px;margin:10px 0 0 13px}
+#recreation_body_box li{padding:0 0 10px 10px}
+.ie6 #recreation_body_box li,.ie7 #recreation_body_box li{padding:0 0 9px 10px}
+#recreation_body_box .title,#recreation_body_box .title_body{font-weight:700;padding-left:0;padding-bottom:5px;margin:0 0 10px;text-transform:uppercase;height:13px}
+#recreation_body_box .title a{color:#000}
+#recreation_body_box .title_body{height:15px;margin:-2px 0 10px}
+.ie6 #recreation_body_box .title_body{margin:-2px 0 5px}
+/*
+	UVODNE VIJESTI PO SPORTU
+*/
+.sport_box_news{width:660px}
+.sport_box_news h1,.derby_kola,.head_section{color:#000;background-color:#eaeaea;text-transform:uppercase;display:block;font-weight:700;padding:4px 0 4px 10px;height:13px;margin:0px 0 7px 0}
+.sport_box_news h1 a{color:#000;float:left}
+.sport_box_news .news_intro .more_arrows{margin-top: -1px}
+#category_texts .nav,.nav_video{margin-left:20px;padding-top:3px;width:650px;margin-top:-7px}
+#category_texts .nav li,.nav_video li{display:inline-block;margin-right:15px;font-size:12px;padding:3px 0 14px 0;float:left}
+#category_texts .nav a.selected,.nav_video a.selected{font-weight:bold}
+#category_texts .nav a,.nav_video a{color:#5a5a5a;cursor:pointer}
+#category_texts .news_intro .pic{border:1px solid #1c1b20;float:left;margin:0 7px 0 0}
+#category_texts .news_intro{float:left;width:304px;height:126px;padding-left:0px;margin:0px 25px 7px 10px}
+.ie6 #category_texts .news_intro{margin:0px 15px 7px 10px}
+#category_texts .news_intro hgroup{height:49px}
+#category_texts .news_intro .intro{height:47px;line-height:15px}
+.only_titles{font-size:11px;float:left;margin:10px 0 0 16px}
+.only_titles li{margin-bottom:10px}
+.only_titles time{font-size:10px;margin-right:10px;text-align:left;font-weight:400;color:#656565}
+#category_texts .only_titles{margin-left:9px}
+/*
+	DRUGA STRANA SPORTA // BLA-BLA
+*/
+#bla_bla{background-color:#000;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:463px;width:640px;margin:23px 0 0;padding:10px}
+#bla_bla .head{background-color:#000;width:248px;height:60px;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0i;}
+#bla_bla .head img{margin:7px 0 0 15px}
+.ie6 #bla_bla,.ie7 #bla_bla{margin:30px 0 0}
+#bla_bla a{color:#FFF}
+#bla_bla a:hover{color:#db002c;text-decoration:none}
+#bla_bla_logo{position:relative;margin:-47px 0 13px 17px; float:left}
+.ie6 #bla_bla_logo,.ie7 #bla_bla_logo{margin:-35px 0 5px 0}
+#bla_bla_slogan{position:relative;z-index:2;font-size:10px;margin:-47px 0 0 145px}
+.ie6 #bla_bla_slogan,.ie7 #bla_bla_slogan{margin:-25px 0 0 -500px; float:right}
+#bla_bla_slogan a{color:#a2a2a2}
+#bla_bla h3{color:#d6d6d6}
+#bla_bla .intro{color:#fff;line-height:15px}
+#bla_bla .more{font-size:12px;font-weight:700;float:right;margin:0}
+#bla_bla .position_one{float:left;border:0;margin:0 0 0 -10px}
+#bla_bla .position_one .intro{padding-bottom:5px;height:40px}
+#bla_bla .news_intro{border-bottom:1px solid #3a393f}
+#bla_bla .news_intro .pic{float:right;margin:0 0 0 10px}
+#bla_bla .news_intro .more_arrows{margin-top: -3px}
+#bla_bla .only_titles{float:none;margin:0}
+#bla_bla .only_titles span{font-size:10px;color:#6b6b6b;padding-right:10px}
+/*
+	FOOTER 
+*/
+#footer{text-align:center;width:660px;color:#414143;margin:18px 0 8px 0}
+#footer a{text-transform:uppercase;color:#414143;padding:0 15px}
+#footer p{line-height:25px}
+#footer .web_team{margin:-7px 0 0}
+#footer .web_team a{text-transform:none;padding:0}
+#footer .rss_ico{display:inline;margin-right:5px;margin-bottom:-2px}
+/*
+	BREADCRUMS & PAGINATION
+*/
+#breadcrumbs{font-weight:700;margin-left:10px;padding:0 0 3px}
+#breadcrumbs .more_arrows{margin:0 6px 1px}
+.ie7 #breadcrumbs .more_arrows{margin:0 6px 4px 6px}
+.ie6 #breadcrumbs .more_arrows{margin:0 6px -8px 6px}
+#breadcrumbs a{color:#000}
+#pagination{font-size:12px;text-align:center;padding:4px 0 4px 0}
+#pagination a{color:#000;display:inline-block;padding:0 5px}
+#pagination img{margin-bottom:2px}
+#pagination a.selected,#pagination a.previous,#pagination a.next{font-weight:700}
+/*
+	NAVIGATION
+*/
+#navigation{height:25px;width:968px;margin:9px auto 0}
+#navigation a{color:#b1b38a;font-weight:700;font-size:14px;float:left;height:13px;margin:0;padding:5px 8px 7px}
+.level_2 #navigation{height:25px}
+.level_2 #header{height:104px}
+
+ul#topmenu{width:968px;position:relative;}
+ul#topmenu li{float:left;height:28px}
+ul#topmenu li ul.sub{display: none}
+ul#topmenu li ul.sub li{float:left;display: none}
+ul#topmenu li a{display:block;text-decoration:none;color:#b1b38a;text-align:center;line-height:1;font-size:14px;height:13px;margin:0 0 0 0;padding:5px 8px 7px}
+ul#topmenu li ul{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+ul#topmenu li ul li{height:28px;border-radius:0;margin:0;padding:0}
+ul#topmenu li ul li a,ul#topmenu li ul li a:hover{color:#fff;font-size:12px;font-weight:700;height:13px;padding:8px 15px 7px}
+ul#topmenu li.current a,ul#topmenu li.current li.current a{-webkit-border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;border-radius:5px 5px 0px 0px;color:#fff;text-decoration:none}
+ul#topmenu li ul li:first-child a:hover{-webkit-border-radius:5px 0px 0px 5px;-moz-border-radius:5px 0px 0px 5px;border-radius:5px 0px 0px 5px;}
+ul#topmenu ul{display:none;width:968px;position:absolute;left:0;top:25px;}
+ul#topmenu ul a{text-align:left;width:auto;white-space:nowrap;border:none;color:#fff}
+#homepage ul#topmenu li.current ul li a:hover{text-decoration: underline}
+/*ul#topmenu ul li:first-child{margin:5px 0 0 0}*/
+ul#topmenu ul a:hover{text-decoration:none}
+ul#topmenu ul li a:hover{height:20px}
+ul#topmenu li.current ul{z-index:10;display:block}
+li#homepage_nav ul a:hover{background-color:none;text-decoration:underline}
+ul#topmenu li#homepage_nav.current a{color:#b2b586}
+ul#topmenu li#homepage_nav a:hover,ul#topmenu li#blabla_nav a.main_tab:hover,ul#topmenu li#forum_nav a:hover{color: #fff}
+li#homepage_nav ul{background-color:none}
+li#bh_fudbal_nav{width:83px;}
+li#ino_fudbal_nav{width:86px}
+li#bh_kosarka_nav{width:94px}
+li#ino_kosarka_nav{width:97px}
+li#rukomet_nav{width:77px}
+li#tenis_nav{width:54px}
+li#auto_moto_nav{width:89px}
+li#zimski_sportovi_nav{width:101px}
+li#ostalo_nav{width:60px}
+li#blabla_nav{width:61px}
+li#homepage_nav{margin-left:6px}
+li#forum_nav{margin-right:0;padding-right:0}
+ul#topmenu li.current ul a:hover{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+
+.photo_icon{display:inline;margin:0 0 0 3px}
+/*
+	ARCHIVE
+*/
+.open_search_form{font-size:10px;border:1px solid #000;border-top:0;margin:-7px 0 0;padding:5px 0 5px 20px}
+.open_search_form a{color:#fff}
+.open_search_form img{display:inline}
+#search_archive_form{display:none;color:#000;padding:0 0 20px 115px;border:1px solid #000;border-top:0}
+.latest_page #search_archive_form,.search_page #search_archive_form{border:0}
+#search_archive_form form{padding-top:7px}
+#search_archive_form li{margin:6px 0}
+#open_search_form_click,#open_search_form_click2{cursor:pointer}
+#chkb_filters{font-size:10px;padding:0 20px 0 5px}
+#chkb_filters input{margin-right:5px}
+#search_archive_form #keywords,#search_archive_form #keywords_full{width:418px;height:34px;border:1px solid #878787;font-size:14px;color:#b8b8b8;padding:0 5px}
+#search_archive_form #search_btn_full{background-color:#000;color:#FFF;text-transform:uppercase;height:34px;width:85px;font-size:11px;border:0;font-weight:700;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin-left:5px}
+#search_archive_form select{width:138px;margin-right:5px;font-size:10px}
+#search_archive_form .search_icon{margin-left:410px;margin-top:-23px;margin-bottom:20px;display:block}
+.search_results_msg{padding: 10px}
+.latest_page #search_archive_form,html.latest_page .open_search_form{border:0}
+.latest_page .open_search_form a{color:#000}
+
+.archive_news_intro{border-bottom:1px solid #b9b8be;height:89px;width:642px;margin:7px 0 0 7px;padding-left:3px}
+.archive_news_intro hgroup{height:27px}
+.archive_news_intro .pic{border:1px solid #1c1b20;float:left;margin:0 7px 0 0}
+.archive_news_intro .intro{line-height:15px;margin:8px 90px 8px 0;height:28px}
+.archive_news_intro time{float:left}
+.archive_news_intro .more_arrows{float:none;margin:0 0 0 5px}
+.archive_news_intro
+#archive_level_3{margin-top:-7px;padding-bottom:1px}
+#archive_level_3 h1{margin-top:7px}
+.like-level3{border:none; padding:0; text-align: right; float:right; margin: -10px 0 0 0; overflow:hidden; width:120px; height:20px;}
+.ie7 .like-level3{margin-left:30px;height:21px}
+.ie6 .like-level3{margin-left:20px;height:21px}
+/*
+	LEVEL 3
+*/
+#level3_forum_training_box{width:294px;height:775px;float:left}
+#level3_forum_training_box #forum_box{width:294px; height:292px}
+#level3_forum_training_box #forum_box .css-scrollbar{width:280px;height:235px}
+#level3_forum_training_box #forum_box .right_box_content{height:262px}
+#level3_forum_training_box #forum_box .css-panes div{width:280px;height:253px;padding:10px 7px 6px}
+#level3_forum_training_box #forum_box ul.css-tabs{width:294px}
+#level3_forum_training_box #forum_box ul.css-tabs a{width:96px}
+#level3_trening_box{height:460px;width:280px;background-color:#FFF;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:7px}
+#level3_highlighted_news{border:1px solid #030000;width:355px;margin-top:-7px;border-top:0;height:636px}
+#level3_highlighted_news #breadcrumbs{color:#fff; margin: 0; padding:4px 0 4px 10px;height:13px; border-bottom: 1px solid #000}
+#level3_highlighted_news .news_intro{width:336px;margin-left:10px}
+#level3_highlighted_news .news_intro .more_arrows{margin-top:-4px}
+#level3_highlighted_news .news_intro h3,#level3_highlighted_news .position_one h3{color:#d6d6d6}
+#level3_highlighted_news .position_one{border:0;width:355px;height:308px}
+#level3_highlighted_news .position_one p.intro{width:334px;padding-bottom:11px}
+#level3_highlighted_news .position_one img{border-top:0px}
+#level3_highlighted_news .position_one .more_arrows{float:none;}
+#level3_highlighted_news .position_one #_ss_player{border-left: 0; border-right: 0;border-top:0;padding-top: 0}
+.recommended_from_training{margin:0 -7px;font-size:11px}
+.recommended_from_training .title_box,.recommended_from_training .title_box2{text-transform:uppercase;color:#5a5a5a;font-weight:700;height:15px;padding-left:28px;background-color:#FFF;font-size:11px}
+.recommended_from_training .title_box2{height:10px;padding:0 0 0 28px;font-size:11px}
+.recommended_from_training li{height:56px;border-bottom:1px solid #FFF;background-color:#f8f8f8;padding:7px 0;font-size:1px}
+.recommended_from_training li span{font-size:10px}
+.recommended_from_training li.zebra{background-color:#ededed;}
+.recommended_from_training img{border:1px solid #000;display:inline;float:left;margin:0 13px 0 11px}
+.recommended_from_training span{display:block;float:left;width:205px;padding-bottom:7px}
+.recommended_from_training .title{font-size:12px;font-weight:700}
+.recommended_from_training .title a{color:#000}
+.recommended_from_training .category{text-transform:uppercase}
+.recommended_from_training .city{font-size:10px;color:#6b6b6b}
+.recommended_from_training .intro{line-height:15px;padding:0 10px}
+#level3_body_ba{height:100px;background-color:#FFF;font-size:11px}
+#level3_body_ba header{height:64px}
+a.more_link,a.more_link_archive{font-size:12px;font-weight:700;float:right;color:#000;margin:5px 0 0}
+a.more_link_archive{margin-right:7px;margin-top:-6px;display:block;padding:3px 0}
+.change_news_view{float:right;margin:1px 12px 0 0}
+.change_news_view img {display:inline;margin:0 0 0 15px}
+
+#level3_complex_right{width:282px;height:814px;float:left;background-color:#FFF;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:7px}
+#level3_complex_right .news_intro .more_arrows{margin-top: -3px}
+#level3_complex_right a.more_link{margin-top:-2px}
+#level3_complex_editorial{width:355px;height:374px;border:1px solid #000;color:#fff}
+#level3_complex_editorial .editorial_item{width:337px;height:117px;border-bottom:1px solid #5b954d;margin:7px 0 0 9px;padding:0}
+#level3_complex_editorial .no_border{border:0}
+#level3_complex_editorial .editorial_item h3{text-transform:uppercase;font-weight:700;margin-bottom:7px; width: 250px}
+#level3_complex_editorial .editorial_item h2{height:40px;margin-bottom:3px}
+#level3_complex_editorial .editorial_item h2 a{color:#fff;font-weight:700;line-height:14px;font-size:12px}
+#level3_complex_editorial .editorial_item .intro{margin-top:6px}
+#level3_complex_editorial .editorial_item .img{border:1px solid #000;float:left;margin-right:10px; display:inline}
+#level3_complex_editorial.ads .editorial_item{width: 255px}
+
+.derby_kola{margin: 0 -10px 7px -10px}
+#level3_two_clubs{height:384px;width:337px;background-color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin-top:7px;padding:7px 10px 7px 10px}
+#level3_two_clubs .left_club{width:158px;padding-right:10px;height:333px;float:left;border-right:1px solid #b8b8be}
+#level3_two_clubs .right_club{width:158px;height:333px;padding-left:10px;float:left}
+#level3_two_clubs h1{text-transform:uppercase;font-size:11px;font-weight:700;margin-bottom:4px}
+#level3_two_clubs h1 a{color:#5a5a5a}
+#level3_two_clubs .right_club h1{text-align:right}
+#level3_two_clubs article{padding:0 0 18px 0}
+#level3_two_clubs .full a{color:#000}
+#level3_two_clubs .left_club .full .img{float:right;margin-left:10px}
+#level3_two_clubs .right_club .full .img{float:left;margin-right:10px}
+#level3_two_clubs h2{font-weight:700;font-size:12px;line-height:14px;height:37px}
+#level3_two_clubs h3{font-size:10px;margin-bottom:3px}
+#level3_two_clubs .left_club .full h2{height:68px;text-align:right}
+#level3_two_clubs .right_club .full h2{height:68px;text-align:left}
+#level3_two_clubs article p{line-height:15px}
+#level3_two_clubs .more_link{margin-top:-6px}
+#level3_two_clubs .more_arrows{float:right;margin:-2px 6px 0 0}
+#video_box_index{font-weight:700;margin:7px 0 7px 0;border-top:0px;height:108px;display:block}
+#video_box_index h2{margin-left:4px;font-weight:normal;font-size:11px;padding-right:5px;line-height:15px}
+#video_box_index li{float:left}
+#video_box_index a{float:left;display:inline;margin:0 3px 0 0;width:85px;height:106px;cursor:pointer;border:1px solid #000}
+#video_box_index #art_4 a{margin:0}
+#video_box_index a:hover,#video_box_index a.selected{text-decoration:none;color:#000;outline:1px solid #db002c}
+#video_box_index li img{margin:7px 0 7px 0}
+/*
+	NEWS PAGE
+*/
+#news_page{border:1px solid #000;margin-top:0;width:658px}
+#news_page #breadcrumbs{color:#fff;width:635px;margin-left:0;border-bottom:1px solid #000;background-color:#060;padding:4px 0 4px 23px;height:13px}
+#level3_highlighted_news #breadcrumbs a:hover,#news_page #breadcrumbs a:hover{color:#fff;text-decoration:underline}
+.photo_horizontal{}
+.player_horizontal{width:658px;height:369px}
+.photo_desc_horizontal{text-align:right;font-size:10px;margin:-9px 0 12px 0;color:#6b6b6b}
+.photo_vertical{border:1px solid #000;margin-bottom:4px;line-height:14px}
+.photo_desc_vertical{text-align:right;font-size:10px;color:#6b6b6b;margin-right:-2px;line-height:14px}
+.news_text{background-color:#FFF;border-top:1px solid #000;padding:13px 23px 20px 23px}
+.news_text h2{font-size:14px;padding-bottom:5px;color:#6b6b6b}
+.news_text h1{font-size:24px;color:#000;padding-bottom:5px;font-weight:bold;line-height:normal}
+.news_text .author_name{display:block;color:#6b6b6b;margin-top:8px}
+.news_text .photographer_name{display:block;color:#6b6b6b;margin-top:-3px}
+.news_text time{margin:-3px 0 9px 0;display:block;color:#6b6b6b}
+.news_text time.soon_story{background-color:#db002c;color:#fff;padding:0 2px;width:auto;display: inline-block}
+.news_text .intro,.news_text .text{margin-bottom:10px}
+.news_text .intro,.news_text .text{font-size:12px;line-height:18px}
+.news_text .text p{margin-bottom:18px}
+.news_text .text{float:left;width:420px;padding:0 0 0 2px}
+.left_part{float:left;width:171px;margin:7px 19px 0 0}
+.ss_table_text{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0.8em;margin:0;padding:0;width:100%}
+.ss_table_text a{color:#030303}
+.ss_table_text tbody td{border:1px solid #fff;height:16px;line-height:16px;margin:0;padding:6px 0 6px 6px; text-align: left}
+.ss_table_text tr:first-child td{background:#A6A6A6;text-transform:uppercase;color:#fff;border-right:1px solid #fff}
+.ss_table_text tbody tr td:first-child{border-left:0}
+.ss_table_text tbody tr td:last-child{border-right:0}
+.ss_table_text tbody tr:nth-child(even){background:#eaeaea}
+.ss_table_text tbody tr:nth-child(odd){background:#f6f6f6}
+#related_news_box{padding-bottom:6px}
+#related_news_box  h2{margin:0 0 14px 4px}
+#related_news_box .news_intro{height:121px;width:285px}
+#related_news_box .news_intro a{color:#044e9a}
+#related_news_box .news_intro .pic{float:left;margin:0 7px 0 0}
+#related_news_box .news_intro h2{font-size:13px}
+#related_news_box .news_intro h3{color:#000;margin-bottom:3px}
+#related_news_box .news_intro hgroup{height:48px}
+#related_news_box .news_intro intro{margin-top:7px}
+#related_news_box .news_intro .more_arrows{margin-top:-4px;margin-right:5px}
+#related_news_box  .more_link{border-top:1px solid #b9b8be;width:285px;text-align:right;padding:5px 0 0 0}
+#related_news_box .only_titles{margin:5px 0 0;font-size:11px;font-weight:normal}
+#related_news_box .only_titles time{float:left;margin-top:1px}
+#related_news_box .only_titles a{display:inline-block;width:220px;line-height:13px}
+#related_news_box .only_titles li{margin-bottom:5px}
+#choose_league_box{width:298px;height:69px;border:1px solid #000;margin:0 0 7px 1px}
+#choose_league_box .league_logo{height:69px;width:74px;background-color:#FFF;text-align:center;float:left}
+#choose_league_box .league_form{float:left;height:69px;width:224px;color:#fff;font-weight:700;font-size:12px}
+#choose_league_box .league_form select{width:157px;margin-left:10px;font-size:11px}
+#choose_league_box .league_name a{color:#fff}
+#choose_league_box p{padding:9px 7px}
+#choose_league_box form{border-top:1px solid #fff;margin:0 7px;padding:9px 0}
+#files_news{margin-bottom:30px}
+#files_news li a.title{font-weight:700;color:#000;line-height:14px}
+#files_news li{margin-bottom:6px;font-size:11px}
+#files_news a.hot_file_title{font-size:12px;display:block;padding:10px 0 8px 5px}
+#files_news li.red_title a{font-size:12px}
+#files_news .red_title p{line-height:14px;margin-bottom:10px;margin-top:6px}
+#files_news .head_section_dots{margin-bottom:9px}
+#files_news .head_section_dots span{width:50px;padding-top:2px;font-size:11px}
+#social_shares{margin-bottom:30px;padding-top:1px}
+#social_shares li{border-bottom:1px solid #ccc}
+#social_shares li.shareme{height:18px;padding:6px 0;margin-bottom:5px}
+#social_shares li.shareme a{border:none;overflow:hidden;width:130px;height:21px}
+#social_shares li.tweetme iframe{width:130px;height:20px;padding:0 0 5px 0;margin-bottom:5px}
+#social_shares li.printme{height:14px;padding:3px 0 8px 0;margin-bottom:5px}
+#social_shares li.tweetme{height:20px;padding:0 0 5px 0;margin-bottom:5px}
+#social_shares li.plusone{height:19px;padding:0 0 6px 0;margin-bottom:5px}
+#social_shares li.shareme img:hover{cursor: pointer}
+.fb_reccommend_btn{border:none;overflow:hidden;width:380px;height:35px;padding:25px 0 10px 0}
+.print_me img{display:inline;margin-right:5px;float:left}
+.news_text .author_name,.news_text .photographer_name,.news_text time,#files_news span{font-size:10px}
+#files_news a.more_from_files,a.print_me{font-size:10px;color:#6b6b6b}
+
+
+div.horizontal_design{border-top:1px solid #000}
+.horizontal_design hgroup{margin:-3px 0 10px 0}
+.horizontal_design .author_name,.horizontal_design .photographer_name{margin-bottom:6px}
+.horizontal_design .intro{margin-top:12px}
+.news_text.vertical_design{border-top:0}
+.vertical_design hgroup{margin:5px 0 0 0}
+.head_section_dots{font-size: 12px;text-transform: uppercase;font-weight: bold;height:14px;border-top:2px solid #000;font-size:11px; background-image: url(../images/grey_dots.gif);background-repeat: repeat-x;margin-bottom:3px;}
+.head_section_dots span{background-color:#fff;display: block;}
+.head_section_dots a{color:#000}
+
+.scl{padding-top:2px;}
+.scl span{width:70px}
+.dots_photo{margin-top: 7px}
+.dots_photo span{width:95px}
+
+.latest_news_on_page .only_titles{float:none;width:405px;margin-left:0;font-weight:normal;font-size:11px}
+.latest_news_on_page .only_titles li{line-height:normal;margin:0 0 0 0;padding:0}
+.latest_news_on_page .only_titles li time{width:87px;}
+.latest_news_on_page .only_titles li time,.latest_news_on_page .only_titles li a{display:inline-block}
+.ie7 .latest_news_on_page .only_titles li a.title{margin:0 0 9px 0}
+.ie7 .latest_news_on_page .only_titles li{margin-bottom:-7px}
+.latest_news_on_page .head_section_dots span{width: 78px}
+.latest_news_on_page .more_link{border-top:1px solid #ccc;width:420px;text-align:right;padding-top:4px}
+.latest_news_on_page .only_titles li.last{margin-bottom:-3px}
+.latest_news_on_page .tabs_categories{margin-left: 73px; margin-top: 5px}
+.latest_news_on_page .tabs_categories a{padding: 0 6px;} 
+.latest_news_on_page .tabs_categories span.more_arrows{display: inline-block;padding: 0;margin: 0 0 1px 0;width: 7px}
+.latest_news_on_page.related .head_section_dots{padding-bottom: 4px !important}
+.latest_news_on_page.related .head_section_dots span{width: 205px}
+.latest_news_on_page.related .intro{font-size: 11px; width: 400px}
+.latest_news_on_page.related .archive_news_intro{width: 420px; margin-left: 0; padding-left: 0}
+.latest_news_on_page.related h2 a{font-size: 13px}
+.latest_news_on_page.related h3{ padding:0 0 0 0; margin: -3px 0 -2px 0;  display: block;}
+.latest_news_on_page.related hgroup{height: 36px; margin:-3px 0 0 0;}
+.latest_news_on_page.related p.intro{margin:-3px 0 8px 0; line-height: 15px}
+.latest_news_on_page.related .archive_news_intro:last-child{border:0}
+.news_text blockquote.text_quote{font-size: 18px;line-height: 25px;border-top:2px solid #000;border-bottom: 1px solid #d5d5d5;padding-bottom: 2px;margin-bottom: 12px;}
+.news_text blockquote.text_quote img{margin: 5px 0 3px 0}
+.news_text blockquote.text_quote .autor{font-size:10px;color:#676767;float:right;height: 20px;padding-top: 3px}
+/*
+	PHOTOGALLERY
+*/
+.photogallery{margin:0 0 11px 0}
+.photogallery a{height:40px;width:40px}
+.photogallery img{border:1px solid #000;display:inline-block;margin:0 1px 1px 0;float:left}
+.photogallery span{font-size:10px;float:none;display:block;margin-bottom:5px}
+.show_more_photos{font-size:10px;color:#6b6b6b;cursor:pointer}
+a.show_more_photos:hover{color:#6b6b6b}
+img.show_more_photos_img{float:none;border:0;margin:-1px 5px 0 5px}
+
+/*
+	COLORS
+*/
+
+.c_4,.c_5,.c_4:hover,.c_5:hover{color: #1c6a08}
+.c_6,.c_7,.c_6:hover,.c_7:hover{color: #d69120}
+.c_8,.c_8:hover{color: #3350c3}
+.c_9,.c_9:hover{color: #aea262}
+.c_10,.c_10:hover{color: #C50000}
+.c_11,.c_11:hover{color: #77784b}
+.c_198,.c_198:hover{color: #be26c5}
+.c_199,.c_199:hover{color: #db0011}
+
+#homepage .position_one{background-color:#000}
+
+#bh_fudbal #search_archive_form,#bh_fudbal .open_search_form,#bh_fudbal #columns_level_2,#bh_fudbal #position_one_video,#bh_fudbal #level3_complex_editorial, #bh_fudbal #level3_highlighted_news,#bh_fudbal #choose_league_box .league_form,#bh_fudbal #news_page #breadcrumbs,#bh_fudbal #video_box_index a{background-color:#1c6a08}
+#bh_fudbal #columns_level_2 .border{border-right:1px solid #5b954d}
+#bh_fudbal .position_one time,#bh_fudbal .position_one .by_author,#bh_fudbal .column_item .column_title, #bh_fudbal #level3_highlighted_news .news_intro time, #bh_fudbal #level3_highlighted_news #breadcrumbs a,#bh_fudbal #level3_complex_editorial .editorial_item h3,#bh_fudbal #level3_complex_editorial .editorial_item time, #bh_fudbal #video_box_index a,#bh_fudbal #news_page #breadcrumbs a{color:#cae692}
+#bh_fudbal #level3_highlighted_news .news_intro{border-bottom:1px solid #55994e}
+#bh_fudbal #level3_highlighted_news .news_intro a, #bh_fudbal #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#bh_fudbal #video_box_index a:hover,#bh_fudbal #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#bh_fudbal #news_page #breadcrumbs a.tag{color:#1c6a08; text-decoration:none}
+#bh_fudbal #news_page #breadcrumbs a.tag:hover{background-color:#1c6a08; color:#fff}
+#bh_fudbal #choose_league_box form{border-color:#55994e}
+#bh_fudbal .head_section_dots,#bh_fudbal .text_quote{border-top-color:#1c6a08}
+#bh_fudbal .pagination .btn{background-color: #1c6a08}
+#bh_fudbal .pagination .btn:hover{background-color: #5b954d}
+
+#ino_fudbal #search_archive_form,#ino_fudbal .open_search_form,#ino_fudbal #columns_level_2,#ino_fudbal #position_one_video,#ino_fudbal #level3_complex_editorial, #ino_fudbal #level3_highlighted_news,#ino_fudbal #choose_league_box .league_form,#ino_fudbal #news_page #breadcrumbs,#ino_fudbal #video_box_index a{background-color:#1c6a08}
+#ino_fudbal #columns_level_2 .border{border-right:1px solid #5b954d}
+#ino_fudbal .position_one time,#ino_fudbal .position_one .by_author,#ino_fudbal .column_item .column_title, #ino_fudbal #level3_highlighted_news .news_intro time, #ino_fudbal #level3_highlighted_news #breadcrumbs a,#ino_fudbal #level3_complex_editorial .editorial_item h3,#ino_fudbal #level3_complex_editorial .editorial_item time, #ino_fudbal #video_box_index a,#ino_fudbal #news_page #breadcrumbs a{color:#cae692}
+#ino_fudbal #level3_highlighted_news .news_intro,#level3_highlighted_news .position_one .intro{ border-bottom:1px solid #55994e}
+#ino_fudbal #level3_highlighted_news .news_intro a, #ino_fudbal #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#ino_fudbal #video_box_index a:hover,#ino_fudbal #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#ino_fudbal #news_page #breadcrumbs a.tag{color:#1c6a08;text-decoration:none}
+#ino_fudbal #news_page #breadcrumbs a.tag:hover{background-color:#1c6a08;color:#fff}
+#ino_fudbal #choose_league_box form{border-color:#55994e}
+#ino_fudbal .head_section_dots,#ino_fudbal .text_quote{border-top-color:#1c6a08}
+#ino_fudbal .pagination .btn{background-color: #1c6a08}
+#ino_fudbal .pagination .btn:hover{background-color: #5b954d}
+
+#bh_kosarka #search_archive_form,#bh_kosarka .open_search_form,#bh_kosarka #columns_level_2,#bh_kosarka #position_one_video,#bh_kosarka #level3_complex_editorial, #bh_kosarka #level3_highlighted_news,#bh_kosarka #choose_league_box .league_form,#bh_kosarka #news_page #breadcrumbs{background-color:#d69120}
+#bh_kosarka #columns_level_2 .border{border-right:1px solid #ad761a}
+#bh_kosarka .position_one .by_author,#bh_kosarka #columns_level_2 .column_item a.more,#bh_kosarka #columns_level_2 .column_item a.more,#bh_kosarka .position_one time,#bh_kosarka .column_item .column_title, #bh_kosarka #level3_highlighted_news .news_intro time, #bh_kosarka #level3_highlighted_news #breadcrumbs a,#bh_kosarka #level3_complex_editorial .editorial_item h3,#bh_kosarka #level3_complex_editorial .editorial_item time, #bh_kosarka #video_box_index a,#bh_kosarka #news_page #breadcrumbs a{color:#000}
+#bh_kosarka #level3_highlighted_news .news_intro,#bh_kosarka #level3_highlighted_news .position_one .intro{border-bottom:1px solid #ad761a}
+#bh_kosarka #level3_highlighted_news .news_intro a, #bh_kosarka #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#bh_kosarka #video_box_index a:hover,#bh_kosarka #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#bh_kosarka #news_page #breadcrumbs a.tag{color:#d69120; text-decoration:none}
+#bh_kosarka #news_page #breadcrumbs a.tag:hover{background-color:#d69120;color:#fff}
+#bh_kosarka #choose_league_box form{border-color:#ad761a}
+#bh_kosarka .head_section_dots,#bh_kosarka .text_quote{border-top-color:#d69120}
+#bh_kosarka .pagination .btn{background-color: #d69120}
+#bh_kosarka .pagination .btn:hover{background-color: #ad761a}
+
+#ino_kosarka #search_archive_form,#ino_kosarka .open_search_form,#ino_kosarka #columns_level_2,#ino_kosarka #position_one_video,#ino_kosarka #level3_complex_editorial, #ino_kosarka #level3_highlighted_news,#ino_kosarka #choose_league_box .league_form,#ino_kosarka #news_page #breadcrumbs{background-color:#d69120}
+#ino_kosarka #columns_level_2 .border{border-right:1px solid #ad761a}
+#ino_kosarka .position_one .by_author,#ino_kosarka #columns_level_2 .column_item a.more,#ino_kosarka .position_one time,#ino_kosarka .column_item .column_title, #ino_kosarka #level3_highlighted_news .news_intro time, #ino_kosarka #level3_highlighted_news #breadcrumbs a,#ino_kosarka #level3_complex_editorial .editorial_item h3,#ino_kosarka #level3_complex_editorial .editorial_item time, #ino_kosarka #video_box_index a,#ino_kosarka #news_page #breadcrumbs a{color:#000}
+#ino_kosarka #level3_highlighted_news .news_intro,#ino_kosarka #level3_highlighted_news .position_one .intro{border-bottom:1px solid #ad761a}
+#ino_kosarka #level3_highlighted_news .news_intro a,#ino_kosarka #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#ino_kosarka #video_box_index a:hover,#ino_kosarka #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#ino_kosarka #news_page #breadcrumbs a.tag{color:#d69120; text-decoration:none}
+#ino_kosarka #news_page #breadcrumbs a.tag:hover{background-color:#d69120; color:#fff}
+#ino_kosarka #choose_league_box form{border-color:#ad761a}
+#ino_kosarka .head_section_dots,#ino_kosarka .text_quote{border-top-color:#d69120}
+#ino_kosarka .pagination .btn{background-color: #d69120}
+#ino_kosarka .pagination .btn:hover{background-color: #ad761a}
+
+#rukomet #search_archive_form,#rukomet .open_search_form,#rukomet #columns_level_2,#rukomet #position_one_video,#rukomet #level3_complex_editorial, #rukomet #level3_highlighted_news,#rukomet #choose_league_box .league_form,#rukomet #news_page #breadcrumbs,#rukomet #video_box_index a{background-color:#3350c3}
+#rukomet #columns_level_2 .border{border-right:1px solid #4b70ce}
+#rukomet .position_one .by_author,#rukomet .position_one time,#rukomet .column_item .column_title, #rukomet #level3_highlighted_news .news_intro time, #rukomet #level3_highlighted_news #breadcrumbs a,#rukomet #level3_complex_editorial .editorial_item h3,#rukomet #level3_complex_editorial .editorial_item time, #rukomet #video_box_index a,#rukomet #news_page #breadcrumbs a{color:#a6beec}
+#rukomet #level3_highlighted_news .news_intro,#rukomet #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #55994e}
+#rukomet #level3_highlighted_news .news_intro a, #rukomet #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#rukomet #video_box_index a:hover,#rukomet #video_box_index a.selected{background-color:#a6beec; color:#000}
+#rukomet #news_page #breadcrumbs a.tag{color:#3350c3; text-decoration:none}
+#rukomet #news_page #breadcrumbs a.tag:hover{background-color:#3350c3; color:#fff}
+#rukomet #choose_league_box form{border-color:#4b70ce}
+#rukomet .head_section_dots,#rukomet .text_quote{border-top-color:#3350c3}
+#rukomet .pagination .btn{background-color: #3350c3}
+#rukomet .pagination .btn:hover{background-color: #4b70ce}
+
+#tenis #search_archive_form,#tenis .open_search_form,#tenis #columns_level_2,#tenis #position_one_video,#tenis #level3_complex_editorial, #tenis #level3_highlighted_news,#tenis #choose_league_box .league_form,#tenis #news_page #breadcrumbs{background-color:#aea262}
+#tenis #columns_level_2 .border{border-right:1px solid #8d8450}
+#tenis .position_one .by_author,#tenis .position_one time,#tenis .column_item .column_title, #tenis #level3_highlighted_news .news_intro time, #tenis #level3_highlighted_news #breadcrumbs a,#tenis #level3_complex_editorial .editorial_item h3,#tenis #level3_complex_editorial .editorial_item time, #tenis #video_box_index a,#tenis #news_page #breadcrumbs a{color:#000}
+#tenis #level3_highlighted_news .news_intro,#tenis #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #55994e}
+#tenis #level3_highlighted_news .news_intro a, #tenis #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#tenis #video_box_index a:hover,#tenis #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#tenis #news_page #breadcrumbs a.tag{color:#aea262; text-decoration:none}
+#tenis #news_page #breadcrumbs a.tag:hover{background-color:#aea262; color:#fff}
+#tenis #choose_league_box form{border-color:#4b70ce}
+#tenis .head_section_dots,#tenis .text_quote{border-top-color:#aea262}
+#tenis .pagination .btn{background-color: #aea262}
+#tenis .pagination .btn:hover{background-color: #8d8450}
+
+#zimski_sportovi #search_archive_form,#zimski_sportovi .open_search_form,#zimski_sportovi #columns_level_2,#zimski_sportovi  #position_one_video,#zimski_sportovi  #level3_complex_editorial, #zimski_sportovi  #level3_highlighted_news,#zimski_sportovi  #choose_league_box .league_form,#zimski_sportovi #news_page #breadcrumbs{background-color:#be26c5}
+#zimski_sportovi #columns_level_2 .border{border-right:1px solid #c942cf}
+#zimski_sportovi .position_one .by_author,#zimski_sportovi .position_one time,#zimski_sportovi  .column_item .column_title, #zimski_sportovi  #level3_highlighted_news .news_intro time, #zimski_sportovi  #level3_highlighted_news #breadcrumbs a,#zimski_sportovi  #level3_complex_editorial .editorial_item h3,#zimski_sportovi  #level3_complex_editorial .editorial_item time, #zimski_sportovi #video_box_index a,#zimski_sportovi #news_page #breadcrumbs a{color:#e5a8e9}
+#zimski_sportovi #level3_highlighted_news .news_intro,#zimski_sportovi #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #55994e}
+#zimski_sportovi #level3_highlighted_news .news_intro a, #zimski_sportovi  #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#zimski_sportovi #video_box_index a:hover,#zimski_sportovi  #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#zimski_sportovi #news_page #breadcrumbs a.tag{color:#be26c5; text-decoration:none}
+#zimski_sportovi #news_page #breadcrumbs a.tag:hover{background-color:#be26c5; color:#fff}
+#zimski_sportovi #choose_league_box form{border-color:#c942cf}
+#zimski_sportovi .head_section_dots,#zimski_sportovi .text_quote{border-top-color:#be26c5}
+#zimski_sportovi .pagination .btn{background-color: #be26c5}
+#zimski_sportovi .pagination .btn:hover{background-color: #c942cf}
+
+#auto_moto #search_archive_form,#auto_moto .open_search_form,#auto_moto #columns_level_2,#auto_moto  #position_one_video,#auto_moto  #level3_complex_editorial, #auto_moto  #level3_highlighted_news,#auto_moto  #choose_league_box .league_form,#auto_moto #news_page #breadcrumbs{background-color:#C50000}
+#auto_moto #columns_level_2 .border{border-right:1px solid #c24639}
+#auto_moto .position_one .by_author,#auto_moto .position_one time,#auto_moto  .column_item .column_title, #auto_moto  #level3_highlighted_news .news_intro time, #auto_moto  #level3_highlighted_news #breadcrumbs a,#auto_moto  #level3_complex_editorial .editorial_item h3,#auto_moto  #level3_complex_editorial .editorial_item time, #auto_moto  #video_box_index a,#news_page #breadcrumbs a{color:#e9b3b0}
+#auto_moto #level3_highlighted_news .news_intro,#auto_moto #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #55994e}
+#auto_moto #level3_highlighted_news .news_intro a, #auto_moto  #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#auto_moto #video_box_index a:hover,#auto_moto  #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#auto_moto #news_page #breadcrumbs a.tag{color:#C50000; text-decoration:none}
+#auto_moto #news_page #breadcrumbs a.tag:hover{background-color:#C50000; color:#fff}
+#auto_moto #choose_league_box form{border-color:#c24639}
+#auto_moto .head_section_dots,#auto_moto .text_quote{border-top-color:#C50000}
+#auto_moto .pagination .btn{background-color: #C50000}
+#auto_moto .pagination .btn:hover{background-color: #c24639}
+
+#ostalo #search_archive_form,#ostalo .open_search_form,#ostalo #columns_level_2,#ostalo  #position_one_video,#ostalo  #level3_complex_editorial, #ostalo  #level3_highlighted_news,#ostalo  #choose_league_box .league_form,#ostalo #news_page #breadcrumbs{background-color:#77784b}
+#ostalo #columns_level_2 .border{border-right:1px solid #8f916b}
+#ostalo .position_one time,#ostalo .position_one .by_author,#ostalo .column_item .column_title, #ostalo  #level3_highlighted_news .news_intro time, #ostalo  #level3_highlighted_news #breadcrumbs a,#ostalo  #level3_complex_editorial .editorial_item h3,#ostalo  #level3_complex_editorial .editorial_item time, #ostalo  #video_box_index a,#ostalo #news_page #breadcrumbs a{color:#dfe0b1}
+#ostalo #level3_highlighted_news .news_intro,#ostalo #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #8f916b}
+#ostalo #level3_highlighted_news .news_intro a, #ostalo #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#ostalo #video_box_index a:hover,#ostalo  #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#ostalo #news_page #breadcrumbs a.tag{color:#77784b; text-decoration:none}
+#ostalo #news_page #breadcrumbs a.tag:hover{background-color:#77784b; color:#fff}
+#ostalo #choose_league_box form{border-color:#8f916b}
+#ostalo .head_section_dots,#ostalo .text_quote{border-top-color:#77784b}
+#ostalo .pagination .btn{background-color: #77784b}
+#ostalo .pagination .btn:hover{background-color: #8f916b}
+
+#magazin #columns_level_2,#magazin  #position_one_video,#magazin  #level3_complex_editorial, #magazin  #level3_highlighted_news,#magazin  #choose_league_box .league_form,#magazin #news_page #breadcrumbs{background-color:#db0011}
+#magazin #columns_level_2 .border{border-right:1px solid #ffbdc2}
+#magazin .position_one time,#magazin .column_item .column_title, #magazin  #level3_highlighted_news .news_intro time, #magazin  #level3_highlighted_news #breadcrumbs a,#magazin  #level3_complex_editorial .editorial_item h3,#magazin  #level3_complex_editorial .editorial_item time, #magazin  #video_box_index a,#magazin #news_page #breadcrumbs a{color:#ffbdc2}
+#magazin #level3_highlighted_news .news_intro,#magazin #level3_highlighted_news .position_one .intro{ border-bottom:1px solid #ffbdc2}
+#magazin #level3_highlighted_news .news_intro a, #magazin  #level3_highlighted_news .news_intro .intro{color:#ffbdc2}
+#magazin #video_box_index a:hover,#magazin  #video_box_index a.selected{background-color:#db0011; color:#000}
+#magazin #news_page #breadcrumbs a.tag{color:#000; text-decoration:none}
+#magazin #news_page #breadcrumbs a.tag:hover{background-color:#db0011; color:#fff}
+#magazin #choose_league_box form{border-color:#ffbdc2}
+#magazin .head_section_dots,#magazin .text_quote{border-top-color:#db0011}
+#magazin .pagination .btn{background-color: #db0011}
+#magazin .pagination .btn:hover{background-color: #ffbdc2}
+
+#tifo #search_archive_form,#tifo .open_search_form,#tifo #columns_level_2,#tifo #position_one_video,#tifo #level3_complex_editorial, #tifo #level3_highlighted_news,#tifo #choose_league_box .league_form,#tifo #news_page #breadcrumbs,#tifo #video_box_index a{background-color:#1c6a08}
+#tifo #columns_level_2 .border{border-right:1px solid #5b954d}
+#tifo .position_one time,#tifo .position_one .by_author,#tifo .column_item .column_title, #tifo #level3_highlighted_news .news_intro time, #tifo #level3_highlighted_news #breadcrumbs a,#tifo #level3_complex_editorial .editorial_item h3,#tifo #level3_complex_editorial .editorial_item time, #tifo #video_box_index a,#tifo #news_page #breadcrumbs a{color:#cae692}
+#tifo #level3_highlighted_news .news_intro{border-bottom:1px solid #55994e}
+#tifo #level3_highlighted_news .news_intro a, #tifo #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#tifo #video_box_index a:hover,#tifo #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#tifo #news_page #breadcrumbs a.tag{color:#1c6a08; text-decoration:none}
+#tifo #news_page #breadcrumbs a.tag:hover{background-color:#1c6a08; color:#fff}
+#tifo #choose_league_box form{border-color:#55994e}
+#tifo .head_section_dots,#tifo .text_quote{border-top-color:#1c6a08}
+#tifo .pagination .btn{background-color: #1c6a08}
+#tifo .pagination .btn:hover{background-color: #5b954d}
+
+#pazi_snima_se #search_archive_form,#pazi_snima_se .open_search_form,#pazi_snima_se #columns_level_2,#pazi_snima_se #position_one_video,#pazi_snima_se #level3_complex_editorial, #pazi_snima_se #level3_highlighted_news,#pazi_snima_se #choose_league_box .league_form,#pazi_snima_se #news_page #breadcrumbs,#pazi_snima_se #video_box_index a{background-color:#1c6a08}
+#pazi_snima_se #columns_level_2 .border{border-right:1px solid #5b954d}
+#pazi_snima_se .position_one time,#pazi_snima_se .position_one .by_author,#pazi_snima_se .column_item .column_title, #pazi_snima_se #level3_highlighted_news .news_intro time, #pazi_snima_se #level3_highlighted_news #breadcrumbs a,#pazi_snima_se #level3_complex_editorial .editorial_item h3,#pazi_snima_se #level3_complex_editorial .editorial_item time, #pazi_snima_se #video_box_index a,#pazi_snima_se #news_page #breadcrumbs a{color:#cae692}
+#pazi_snima_se #level3_highlighted_news .news_intro{border-bottom:1px solid #55994e}
+#pazi_snima_se #level3_highlighted_news .news_intro a, #pazi_snima_se #level3_highlighted_news .news_intro .intro{color:#fefeff}
+#pazi_snima_se #video_box_index a:hover,#pazi_snima_se #video_box_index a.selected{background-color:#d5e8d1; color:#000}
+#pazi_snima_se #news_page #breadcrumbs a.tag{color:#1c6a08; text-decoration:none}
+#pazi_snima_se #news_page #breadcrumbs a.tag:hover{background-color:#1c6a08; color:#fff}
+#pazi_snima_se #choose_league_box form{border-color:#55994e}
+#pazi_snima_se .head_section_dots,#pazi_snima_se .text_quote{border-top-color:#1c6a08}
+#pazi_snima_se .pagination .btn{background-color: #1c6a08}
+#pazi_snima_se .pagination .btn:hover{background-color: #5b954d}
+
+.training_page .position_one .intro,.training_page .position_one a,#trening #columns_level_2 .intro,#trening #columns_level_2 a{color:#000}
+#trening #search_archive_form,#trening .open_search_form,.training_page #columns_level_2,.training_page #position_one_video{background-color:#cae692}
+.training_page #news_page #breadcrumbs,#trening #news_page #breadcrumbs{background-color:#cae692}
+.training_page #columns_level_2 .border{border-right:1px solid #809a50}
+.training_page .position_one h3,.training_page .position_one time,.training_page .column_item .column_title,#trening #news_page #breadcrumbs a{color:#565656}
+#trening #news_page #breadcrumbs a.tag{color:#000;text-decoration:none}
+#trening #news_page #breadcrumbs a.tag:hover{background-color:#cae692;color:#fff}
+.training_page  #columns_level_2,.training_page #columns_level_2 a{color:#000}
+.training_page #position_one_video{height:313px;margin-top:0;padding-top:0px;border:1px solid #000;border-top:0}
+#trening #news_page #breadcrumbs a{color:#000}
+#trening .head_section_dots,#trening .text_quote{border-top-color:#cae692}
+#trening li.shareme{border-top-color:#cae692}
+/*
+	VIDEO
+*/
+#main_video_black_container{background-color:#000;height:460px;border-bottom:1px solid #000;margin-bottom:-7px}
+#main_video_black{width:970px;text-align:left;margin:0 auto}
+#video_position_one{color:#fff;width:610px;padding:7px 0 0 20px}
+#video_position_one a{color:#fff}
+#video_position_one time{color:#676767;padding:7px 0 6px}
+#video_position_one span{background-color:#000}
+#video_position_one h2{font-size:10px;font-weight:400;margin-bottom:3px;display:inline;color:#d6d6d6}
+#video_position_one h1{text-transform:none;font-size:13px;display:block;font-weight:700;margin:2px 0 5px}
+#video_position_one .views{float:right;margin-right:15px;font-size:10px;color:#676767}
+#video_latest_tabs_box{margin-bottom:7px}
+#video_latest_tabs_box .more_link{margin-top:-2px}
+#video_latest_tabs_box .css-panes div{height:653px;padding:7px}
+#video_latest_tabs_box .choose_league{height:auto;margin:2px 0 13px}
+#video_position_one hgroup{margin-top:9px}
+#video_position_one .intro{margin-top:4px;width:480px}
+.video_border{border:1px solid #303030;width:610px;height:342px}
+#video_goal_round .head_section{margin-left:-7px;margin-right:-7px}
+#video_goal_round .head_section img{display:inline;float:left;margin-right:8px;margin-left:-3px}
+#video_latest_tabs_box .news_intro,#video_goal_round .news_intro{width:289px}
+#cccccccccccccccccc .more_arrows,#video_goal_round .more_arrows{margin-top:-4px}
+.flowplayer.with_logo .fp-logo {display: block;opacity: 1; left: 20px;top: 20px; width: 120px}
+.flowplayer.with_logo.small_player .fp-logo{width: 117px}
+.flowplayer.with_logo .fp-logo img{width: 100%} 
+/*
+	STATIC PAGES
+*/
+#static_page{background-color:#FFF;width:618px;border:1px solid #000;border-top:0;margin-top:-7px;font-size:12px;padding:20px 20px 40px}
+#static_page p{line-height:18px;margin-bottom:15px}
+#static_page h1{font-size:24px;color:#000;padding-bottom:20px;font-weight:bold;line-height:normal}
+#static_page h2{color:#054e9a;font-weight:400;font-size:10px;text-transform:uppercase;padding:0 0 6px;margin:0}
+#static_page ul.circle_list{list-style-type:disc;margin-left:18px;margin-bottom:15px}
+#static_page ul.circle_list li{margin-bottom:5px;line-height:14px}
+.rss_right_box{margin-left:-10px;width:303px}
+.rss_right_box li{height:28px;background-color:#f8f8f8;border-bottom:1px solid #fff;padding:12px 0 15px 14px}
+.rss_right_box li span{font-size:12px;font-weight:700;display:block;text-transform:uppercase;margin-bottom:4px}
+.rss_right_box li span a{color:#000}
+.rss_right_box li.zebra{background-color:#ededed}
+#editor_note_box p,#partners_right_box p{margin-bottom:15px;line-height:14px}
+#editor_note_box .editor_name{text-transform:uppercase;font-size:12px;font-weight:700;display:block;margin-bottom:7px}
+#editor_note_box time{font-size:10px;color:#6b6b6b}
+#editor_note_box .editor_photo{float:left;margin-right:10px}
+.impressum_table{margin-left:35px}
+.impressum_table td{line-height:18px;padding:10px}
+.impressum_table td.left_tbl_col{text-align:right;font-weight:700;width:160px;vertical-align:top}
+.impressum_table td.right_tbl_col{text-align:left;vertical-align:bottom}
+.partners_table td{text-align:center;line-height:18px}
+.partners_table td img{display:inline}
+#partners_right_box .rss_right_box{margin-bottom:10px}
+.platform{float:left;text-align:center;font-weight:700;width:206px;margin-bottom:20px;margin-top:20px}
+.platform .title{color:#000;margin-top:12px;display:block}
+.app_icon{width:83px;height:83px;display:block;background:url(../images/apps_sprite.png) no-repeat 0 0;margin:0 auto}
+.app_icon.android{background-position:0 0}
+.app_icon.ios{background-position:0 -109px}
+.app_icon.wp{background-position:0 -221px}
+.platform.store{margin-left:100px}
+.app_icon.mobile-web{background-position:0 -332px}
+.app_icon.android:hover{background-position:0 -462px}
+.app_icon.ios:hover{background-position:0 -590px}
+.app_icon.wp:hover{background-position:0 -706px}
+.app_icon.mobile-web:hover{background-position:0 -835px}
+
+/*
+	FORMS
+*/
+.html-form ul{line-height:130%}
+.html-form li{padding:7px 0;display:block}
+input:invalid, textarea:invalid,.html-form input[type="text"],.html-form input[type="password"]{border:1px solid #7f9db9;width:244px;font-size: 11px; height:18px; padding:0 3px}
+.html-form input[type="reset"]{margin:0 0 0 7px;width:97px;float:none}
+.html-form select{width:256px; height:20px;font-size: 11px;padding:2px;border:1px solid #7f9db9}
+.html-form textarea{border:1px solid #7f9db9;width:246px;height:150px;font-family:Arial;font-size:11px}
+.html-form input.cb{border:1px solid #7f9db9;width:20px}
+.html-form .button{color:#000;font-size:11px;font-weight:700;float:left;width:80px;margin:10px 0}
+.html-form label{display:block;text-align:right;float:left;width:110px;padding-right:1em;font-weight:bold}
+
+/*
+	CONTACT FORM
+*/
+#contact_form{margin-left:95px}
+#contact_form input{width:250px}
+#contact_form textarea{width:350px}
+#contact_form button{float:right;margin-right:35px}
+#contact_form label{font-weight:700;padding-right:20px}
+#contact_form select{height:22px}
+#static_page .greska,#static_page .uspjeh{margin-left:225px}
+#static_page .greska{color:red}
+#static_page .uspjeh{color:green}
+/*
+	SCROLLBAR DIV
+*/
+.css-scrollbar.simple{width:289px;height:223px;overflow:hidden;float:left;background:#fff;-moz-box-shadow:none;border:none;border-bottom:1px solid #ccc;margin:0 7px}
+.simple .scrollbar-pane{margin-right:16px}
+.simple .scrollbar-handle-container{background:#eee;width:15px}
+.simple .scrollbar-handle-container.hover,.simple .scrollbar-handle-container.move{background:#E6E6E6}
+.simple .scrollbar-handle,.simple .scrollbar-handle-up,.simple .scrollbar-handle-down{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAHCAYAAACcLcTKAAAAMklEQVR42mP4TwRgIBJQwwyGQWkZrR0+GDxPUO9gC2Gi3UNpqFArpIdFUh3UGZqY0gwAQe422HjkstgAAAAASUVORK5CYII=);background-repeat:no-repeat}
+.simple .scrollbar-handle{width:13px;border:1px solid #CCC;background-color:#b6b6b6;background-position:-16px 50%}
+.simple .scrollbar-handle.move{border:1px solid #666;background-color:#999}
+.simple .scrollbar-handle-up{width:13px;height:13px;border:1px solid #CCC;background-color:#CCC;background-position:-34px 2px;margin-bottom:1px;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;border-top-left-radius:3px;border-top-right-radius:3px}
+.simple .scrollbar-handle-down{width:13px;height:13px;border:1px solid #CCC;background-color:#CCC;background-position:2px 4px;margin-top:1px;margin-bottom:7px;-webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+.simple .scrollbar-handle:hover,.simple .scrollbar-handle-up.hover,.simple .scrollbar-handle-up:hover,.simple .scrollbar-handle-down.hover,.simple .scrollbar-handle-down:hover{border:1px solid #666}
+.simple .scrollbar-handle-up.move,.simple .scrollbar-handle-down.move{background-color:#999}
+
+#homepage ul#topmenu li ul.sub{display:block}
+/*
+	DOSSIER
+*/
+.top_dossier_container{background:url(../images/dossier_box_bg.jpg) 0 0 repeat-x #fff;border-bottom:1px solid #000;margin-bottom:-7px}
+.dossier_page #container_left{width:970px}
+.dossier_box{text-align:left;width:956px;margin:0 auto;padding:7px 4px 7px 10px}
+.dossier_time{float:right;font-size:12px;color:#a2a2a2;margin-right:7px}
+.dossier_title{float:left;font-size:12px;font-weight:700;padding-left:8px}
+.dossier_header h1{font-size:24px;color:#000;padding-bottom:5px;font-weight:700;line-height:normal}
+.dossier_header{text-align:center}
+.dossier_header p{margin-bottom:25px}
+.dossier_box #position_2345{width:590px;float:left;height:auto;background-color:none;background:none;margin:0;padding:0}
+.dossier_box #position_2345 .news_intro{float:left;margin-left:7px;margin-right:7px}
+.dossier_3{padding:7px 7px 18px}
+.dossier_3 #position_2345 .news_intro{float:left;margin-left:7px;margin-right:7px;width:304px}
+.dossier_3 #position_2345{width:956px}
+#homepage .dossier_box .position_one{border:0;background-color:none;background:none;margin-right:7px;height:313px}
+#homepage #dossier_position_one{float:left;width:364px}
+#homepage #dossier_position_one a{color:#044eab}
+#homepage .dossier_box .position_one header,#homepage .dossier_box .position_one .intro{padding-left:0;margin-left:0}
+#homepage .dossier_box .position_one img{padding-top:0}
+.dossier_forum_ul{font-size:11px;margin:8px 7px 0 10px;padding:0 0 4px}
+.dossier_forum_ul li.title{text-transform:uppercase;font-weight:700;color:#5a5a5a;padding:2px 0 4px 20px}
+#homepage #dossier_position_one a.more_link{color:#000;border-top:1px solid #b9b8be;width:357px;text-align:right;margin-right:7px;padding:5px 0 0}
+.dossier_forum_ul li{margin-bottom:5px}
+.dossier_forum_ul time{font-size:10px;margin-right:10px;text-align:left;font-weight:400;color:#656565}
+#homepage .dossier_11 .position_one{border-bottom:1px solid #ccc}
+#homepage #dossier_position_one .intro,#homepage #dossier_position_one .dossier_forum_ul li.more a,.dossier_box article h3{color:#000}
+
+.ss_table img{display: inline;margin:0;padding:0;vertical-align: middle}
+.ss_table td,.ss_table th{border: 1px solid #000;vertical-align: middle;padding: 3px}
+
+/*
+	MODAL LIKE US
+*/
+
+#popup_container .close{background-image:url(../images/simple_overlay_close.png);position:absolute;right:-10px;top:-10px;cursor:pointer;height:20px;width:20px}
+#popup_container{text-align: left;border:1px solid #88898b;height:315px;width:560px;background:url(../images/bg_popup.png) repeat-x 0 0;border-radius:3px;font-family:Arial, Helvetica, sans-serif;font-size:14px;display:none;z-index:10000;-moz-box-shadow:0 0 30px 5px #777;-webkit-box-shadow:0 0 30px #777;padding:20px}
+#popup_container a{color:#3b5998;text-decoration:none}
+#popup_container a:hover{text-decoration:underline}
+#popup_container h1{font-size:23px;line-height:30px;margin:-7px 0 0;padding:0}
+#popup_container .img_desc{margin-top:3px;height:69px}
+#popup_container .img_desc img{float:left;margin-right:20px;margin-left: 60px;position: absolute}
+#popup_container .img_desc p{margin:0 0 3px;padding:0 0 0 130px}
+#popup_container .img_desc p.first{padding-top:20px}
+#popup_container .no_thanks{text-align:right;margin-top:13px}
+
+/*
+	LIVESCORE TOP SLIDER
+*/
+#livescore_slider{height:88px;width:970px;margin:7px auto 0; display: block;}
+#livescore_slider .match_box{width:128px;height:62px;text-align:left;margin-top:3px; float:left;margin-right:3px;position: relative;}
+#livescore_slider .match_box.red .live{background:#db002c;color:#fff}
+#livescore_slider .match_box a.live{color: #000}
+.row_time_live{background-color:rgba(255,225,225,0.5);border-bottom:1px solid #000;height:16px;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;font-size:.8em}
+.row_time_live .timer, .row_time_live .time,#livescore_slider .category{margin-left:7px;float:left;height:16px;line-height:16px}
+.row_time_live .live{background:#b3b3b3;float:right;height:16px;line-height:16px;margin-right:7px;padding:0 4px}
+.row_teams{background-color:rgba(87,87,87,0.5);height:33px;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;padding:6px 4px}
+.row_teams .team,.row_teams .result{background:#000;color:#9f9f9f;height:15px;width:90px;font-size:.8em;display:inline-block;float:left;margin-right:3px;margin-bottom:3px;line-height:15px}
+.match_box.red .row_teams .team,.match_box.red .row_teams .result{color:#fff}
+.row_teams .team{padding-left:4px;overflow: hidden}
+.row_teams .result{width:20px;margin-right:0;text-align:center}
+.ls_leagues_tabs{margin-left:28px}
+.ls_leagues_tabs ul li{margin-right:3px;float:left;background:#575844;height:17px;line-height:18px;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;font-size:.8em;cursor:pointer;border-bottom:1px solid #3f4032;padding:0 10px}
+.ls_leagues_tabs ul li:hover{color:#fff;}
+.ls_leagues_tabs ul li.selected{background:#a6a881;color:#fff;border-bottom:1px solid #a6a881}
+.matches_slider{width:914px;border:1px solid #575757;border-left:0;border-right:0;height:68px;overflow: hidden;position: relative;float: left;padding-left:3px;padding-right:3px}
+.carousel-content-ul{position: absolute;width: 9999px}
+#livescore_slider .arrow,.posters .arrow{border:1px solid #575757;border-right:0;background:rgba(177,179,138,0.5) url(../images/livescore/slider_arrows.png) no-repeat 0 0;width:24px;height:68px;cursor:pointer}
+#livescore_slider .arrow.arrow-left,.posters .arrow.arrow-left{float:left;margin-right:0;background-position:7px 28px}
+#livescore_slider .arrow.arrow-left,.posters .arrow.arrow-left:hover{background-position:7px -60px}
+#livescore_slider .arrow.arrow-right,.posters .arrow.arrow-right{float:right;background-position:-35px 28px}
+#livescore_slider .arrow.arrow-right,.posters .arrow.arrow-right:hover{background-position:-35px -60px}
+#livescore_slider .goal{background:#db002c !important}
+#livescore_slider .winner{font-weight: bold}
+#livescore_slider .category{display: none}
+
+/*
+        LIVE
+*/
+.live_container{background:#000;color:#fff;}
+.live_container h2{text-transform:uppercase;font-weight:700;margin:2px 0 13px 6px;}
+.main_live{width:349px;height:431px;float:left;margin-right:7px;padding:4px;margin-bottom:7px}
+.right_live{width:288px;height:287px;margin-right:0;padding:4px;margin-bottom:7px;float:right}
+.live_container .match{height:17px;width:349px;margin-bottom:2px;}
+.live_container .match.gray{color:#c1c1c1}
+.live_container .match span{background:#0b141e;height:17px;display:inline-block;margin-right:2px;line-height:17px;}
+.live_container .match span.time{width:40px;text-align:center;}
+.live_container .match span.teams{width:220px;padding:0 6px;}
+.live_container .match span.result{width:54px;text-align:center;margin-right:0;}
+.live_container .match span.status_icon{width:17px;text-align:center;background:none;}
+.live_container .match span.status_icon img{display:inline;margin:0 0 -3px;padding:0;}
+.live_container .css-scrollbar{height:100px;border:0;background:000;margin:5px 0 6px 0;padding:0;}
+.live_container .scrollbar-handle-down{margin-bottom:0!important;}
+.live_container .scrollbar-handle-container{background:#0b141e;}
+.live_container .events{display:block}
+.live_container .event{color:#c1c1c1;min-height: 50px;padding-bottom: 10px;background: #0b141e;border-top: 1px solid #11202e;border-bottom: 1px solid #070d12;background: -moz-linear-gradient(top,  #000000 0%, #000000 2%, #000008 3%, #04080b 5%, #091016 10%, #0c141f 12%, #0c141f 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(2%,#000000), color-stop(3%,#000008), color-stop(5%,#04080b), color-stop(10%,#091016), color-stop(12%,#0c141f), color-stop(100%,#0c141f)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  #000000 0%,#000000 2%,#000008 3%,#04080b 5%,#091016 10%,#0c141f 12%,#0c141f 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  #000000 0%,#000000 2%,#000008 3%,#04080b 5%,#091016 10%,#0c141f 12%,#0c141f 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  #000000 0%,#000000 2%,#000008 3%,#04080b 5%,#091016 10%,#0c141f 12%,#0c141f 100%); /* IE10+ */background: linear-gradient(to bottom,  #000000 0%,#000000 2%,#000008 3%,#04080b 5%,#091016 10%,#0c141f 12%,#0c141f 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c141f',GradientType=0 ); /* IE6-9 */ }
+.live_container .event .time_badges,.live_container .event .action,.live_container .event .text{float:left;}
+.live_container .event .time_badges{width:43px;margin-top:11px;height:39px;}
+.live_container .event .badges{margin-left:3px;}
+.live_container .event .badges img{display:inline;margin:4px 2px 0;}
+.live_container .event .time_badges .minute{font-size:19px;font-weight:700;margin-left:6px;}
+.live_container .event .action{width:15px;margin-right:9px;padding:18px 0 0;}
+.live_container .event .text{width:263px;padding:13px 0 0;}
+.live_container.main_live .notice{margin-left: 6px}
+
+.live_container.main_live .css-scrollbar{width:349px}
+.live_container.main_live .match span.teams{width:220px}
+.live_container.main_live .event .text{width:263px}
+
+
+.live_container.right_live .css-scrollbar{width:288px}
+.live_container.right_live .match span.teams{width:159px}
+.live_container.right_live .event .text{width:202px}
+.live_container.right_live .notice{margin-left: 6px}
+
+/*
+        POSTERS
+*/
+#static_page.posters{width:920px;text-align:center;position:relative;padding:24px}
+#static_page.posters .content{float:left;width:868px}
+#static_page.posters .content h1{margin-top:10px}
+#static_page.posters .content img{max-width:800px;display:block;margin:0 auto}
+#static_page.posters .arrow{background-color:#5b5a46;border:0;top:46%;position:absolute}
+#static_page.posters .arrow.arrow-left{left:0}
+#static_page.posters .arrow.arrow-right{right:0}
+#static_page.posters .content .fb-like{text-align:left;margin-bottom:20px; float: left; width: 600px}
+
+/*
+	HOMEPAGE TIFO BOX
+*/
+#tifo_box{width:358px;height:184px}
+#tifo_box .box{width:175px;height:182px;background:#000;float:left;border:1px solid #000;color:#fff}
+#tifo_box .box h1{font-size:11px;text-transform:uppercase;color:#5a5a5a;font-weight:700;height:15px;line-height:15px;margin:0 0 0 9px;position: relative}
+#tifo_box .box h1 a{color:#c0c0c0}
+#tifo_box .box h1 span{right:22px;font-weight:normal;display:inline-block;background:#db002c;color:#fff;font-size:.8em;text-transform:none;height:16px;margin-top:-1px;position:absolute;margin-left:8px;line-height:17px;padding:0 2px}
+#tifo_box .box article{position: relative}
+#tifo_box .box article h2{font-size:13px;font-weight:700;text-transform:none;display:block;line-height:15px;height:25px;margin:1px 7px 11px 9px}
+#tifo_box .box article h2 a{color:#fff}
+#tifo_box .box article p{margin-left:12px; margin-right: 10px}
+#tifo_box .box .more_arrows{float:right;margin-top:-4px;margin-right:5px}
+#tifo_box .box .icons{position: absolute; right: 5px; top: 81px}
+#tifo_box h3{font-size:10px;color:#d6d6d6; margin-left: 9px;margin-top:6px}
+
+/*
+        PROMO ARTICLES
+*/
+
+.promo_articles#related_news_box .news_intro{height:66px; width: 289px !important}
+.promo_articles#related_news_box .news_intro .pic{float:right; margin-left:10px; margin-right: 0}
+.promo_articles#related_news_box .news_intro h2{margin-left:0}
+.promo_articles#related_news_box .news_intro h3{margin-bottom: 1px}
+.promo_articles#related_news_box  .right_box_content{height: auto; padding-left: 7px; padding-bottom: 7px}
+.promo_articles a{cursor: pointer}
+
+    .slideshow{
+        border-top: 0;
+        padding-top: 23px;
+    }
+    
+    .slideshow header{
+        height: 48px;
+        margin-bottom: 15px
+    }
+    
+    .slideshow h1{
+        margin-top: 20px
+    }
+    
+    .slideshow .share{
+        cursor: pointer
+    }
+    
+    .slideshow h2{
+        font-size: 12px;
+        font-weight: 700;
+        color: #000;        
+    }
+    
+    .slideshow h2 a{
+        color: #000000
+    }
+    
+    .slideshow h3{
+        height: 18px
+    }
+    
+    .slideshow .text{
+        width: 100%
+    }
+    
+    .slideshow header .left{
+        float: left;
+        width: 440px
+    }
+    
+    .slideshow header .hgroup{
+        height: 41px
+    }
+    
+    #news_page .pagination{
+        margin-bottom: 25px
+    }
+    
+    .pagination .btn{
+        height: 48px;
+        width: 116px;
+        padding: 0 12px;
+        line-height: 48px;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-align: left;
+        background: url(/assets/images/arrows_big.png) no-repeat
+    }
+    
+    .pagination .btn.left{
+        float: left;
+        padding-left: 42px;
+        width: 116px;
+        background-position: 10px 13px;
+    }
+    
+    .pagination .btn:hover{
+        text-decoration: none
+    }
+    
+    .pagination .btn.right{
+        float: right;
+        padding-right: 42px;
+        padding-left: 32px;
+        width: 96px;
+        background-position: 148px -38px;        
+    }   
+    
+    .pagination span{
+        display: inline-block;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        width: 159px;
+        font-weight: bold;
+        color: #6b6b6b;
+        float:right;
+    }   
+
+.paneContainer, .css-panes{
+    background: #fff;
+    border-radius: 0 0 5px 5px
+}
+
+.news_text .tags {
+    margin-bottom: 20px;
+    margin-top: -1px
+}
+
+.news_text .tags .tag{    
+        display: block;
+        width: 100%;
+        background: #f6f6f6;
+        height: 82px;
+        margin-bottom: 9px    
+}
+
+.news_text .tags .tag a{
+    color: #030303
+}
+
+.news_text .tags .tag a:hover{
+    text-decoration: none
+}
+
+.news_text .tags .tag h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 17px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.news_text .tags .tag .photo-holder {
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 11px 13px 0 13px;
+    text-align: center
+}
+
+.news_text .tags .tag .photo{
+    max-height: 60px;
+    max-width: 60px;   
+    margin: 0 auto
+}
+
+.news_text .tags .tag.player .photo{
+    border-radius: 30px
+}
+
+.social_btns{
+    margin-bottom: 20px;
+    margin-top: 23px
+}
+
+.social_btns .btn{
+    display: inline-block;
+    padding: 0;
+    width: 122px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;      
+    text-align: center;  
+    color: #fff;
+    margin-right: 3px;
+    text-transform: uppercase;
+}
+
+.social_btns .btn:hover{
+    text-decoration: none
+}
+
+.social_btns .btn.facebook{
+    background: #405f97
+}
+
+.social_btns .btn.twitter{
+    background: #32ccfe
+}
+
+.powered_by_nektar{
+    font-size:10px;color:#6b6b6b
+}
+
+.powered_by_nektar a{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: -3px
+}
+
+.powered_by_nektar a img{
+    height: 13px;
+}
+
+/* END */
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.hide_text {text-indent: 100%;white-space: nowrap;overflow: hidden;}
+
+@media all and (orientation:portrait) {
+
+}
+
+@media all and (orientation:landscape) {
+
+}
+
+@media screen and (max-device-width: 480px) {
+
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
