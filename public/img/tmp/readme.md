@@ -1,0 +1,1 @@
+This is the temp folder for the downloaded images.
