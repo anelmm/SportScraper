@@ -11,27 +11,40 @@ let replaceAndTrim = (str) => {
    return str.replace(/(?:\r\n|\r|\n|\")/g, '').trim();
 }
 
-let download =(uri, filename) => {
+let download =(uri, filename, callback) => {
   request.head(uri, (err, res, body) => {
-    console.log('content-type:', res.headers['content-type']);
-    console.log('content-length:', res.headers['content-length']);
-
-    request(uri).pipe(fs.createWriteStream('public/' + filename));
+	if (err || res.statusCode !== 200) {
+       callback(err || new Error(res.statusCode));
+     } else {
+	   request(uri).pipe(fs.createWriteStream('public/' + filename));
+       callback(null, body);
+     }
   });
 };
 
  let handleScrapElement = (a, articleList, isMainBool) => {
-		var json = { title : "",image:"", subTitle: "", text : "", author : "", creationDate : "", isMain : isMainBool};
+		let json = { title : "",image:"", subTitle: "", text : "", author : "", creationDate : "", isMain : isMainBool};
 		json.subTitle= replaceAndTrim(a.children('header').children('hgroup').children('h3').text());
                 json.title = replaceAndTrim(a.children('header').children('hgroup').children('h2').text());
                 json.author = replaceAndTrim(a.children('header').children('span').text().substring(2));
                 json.text = replaceAndTrim(a.children('.intro').text());
 		json.creationDate = a.children('header').children('time').attr('datetime');
 		
-		var imgUrl = a.children('a').children('img').attr('src').toString(); 	
-                var parsed = urlParser.parse(imgUrl);
-                json.image = 'img/tmp/' + path.basename(parsed.pathname);
-
+		let imgUrl = a.children('a').children('img').attr('src'); 
+		
+		if(imgUrl !== 'undefined')
+		{
+			let parsed = urlParser.parse(imgUrl);
+		    json.image = 'img/tmp/' + path.basename(parsed.pathname);
+			download(imgUrl, json.image, (error, body) => {
+			   if (error) {
+				 console.error(error);
+			   } else {
+				 console.log(body);
+			   }
+			});
+		}
+		
 		articleList.push(json);
 
 		models.Articles
@@ -44,36 +57,32 @@ let download =(uri, filename) => {
 				isMain: json.isMain,
 				image: json.image})
 		      .save();
-
-                download(imgUrl, json.image);
 }
 
 exports.scrape = (req, res) => {
     
-    var url = config.ScrapUrl;
+    let url = config.ScrapUrl;
 
-    request(url, (error, response, html) => {
-        if(!error){
-            var $ = cheerio.load(html);
-	    var articleList = [];
-            
-	    models.Articles.destroy({truncate: true});
-
-            $('#position_2345 article.news_intro').each(function(i, element){
+    request(url, (error, response, body) => {
+		if (error) {
+			console.error(error);
+		} else {
+			let $ = cheerio.load(body);
+			let articleList = [];
 		
-      		var a = $(this);
-		handleScrapElement(a, articleList, false);
-      		
-    	    });
+			models.Articles.destroy({truncate: true});
 
-	    $('#rpc_position_one').each(function(i, element){
-		
-      		var a = $(this);
-		handleScrapElement(a, articleList, true);
-      		
-    	    });
-	    res.send(articleList);        
-        }
+			$('#position_2345 article.news_intro').each((i, element) => {
+				let a = $(element);
+				handleScrapElement(a, articleList, false);
+			});
+
+			$('#rpc_position_one').each((i, element) => {
+				let a = $(element);
+				handleScrapElement(a, articleList, true);		
+			});
+			res.send(articleList);        
+		}
     })
    
 }
