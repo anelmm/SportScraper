@@ -1,23 +1,22 @@
 # SportScraper
 Setup:
-  - Nakon checkouta potrebno je instalirati node, gulp, bower i postgres bazu.
-  - Pokrenuti npm install u cmd-u
-  - Pokrenuti bower install u cmd-u
-  - Pokrenuti gulp u cmd-u
-  - U folderu "models" nalazi se index.js u kojem je potrebno podesiti postgress connection string (promjeniti samo ako se razlikuje).
-  - Pokrenuti node server (npm run watch)
-  - Pokrenuti scrap metodu na API-ju koja ce preuzeti vijesti sa SportSport.ba (http://localhost:3000/api/scrape)
+  - After checkout install node 6, gulp, bower, nodemon and postgress database.
+  - Execute npm install in cmd.
+  - Execute bower install in cmd.
+  - Execute gulp in cmd.
+  - Set postgress connection string in config.json file.
+  - Start node server (npm run watch)
+  - Execute scrap method on the API which will download news from SportSport.ba (http://localhost:3000/api/scrape)
 
-Struktura aplikacije:<br/>
+Structure:<br/>
   Web API:<br/>
-    - Express.js web framework <br/>
-    - Kontroleri sa implementacijama API endpointa (scrap i artickes) se nalaze u "apis" folderu <br/>
+    - Restify.js framework <br/>
+    - API controllers (scrap i articles) are placed into "apis" folder <br/>
   Web <br/>
-    - Express.js web framework, swig template engine, react.js i alt.js (Flux arhitektura) <br/>
-    - U folderu views se nalazi index.html template <br/>
-    - U folderu public se nalaze resursi (js,css, img, fonts) <br/>
-    - U folderu app se nalazi react aplikacija sa flux strukturom <br/>
+    - Restify.js framework, react.js i alt.js (Flux architecture) <br/>
+    - Resources and index.html are placed in public folder<br/>
+    - The app folder contains react.js application <br/>
   Data access <br/>
-    - Sequelize.js ORM za rad sa postgress bazom <br/>
-    - Prilikom starta aplikacije pokrece se migracija koja kreira articles tabelu u bazi <br/>
-    - U folderu models se nalazi index.js fajl za inicijalizaciju ORM-a kao i article.js koji predstavlja article model <br/>
+    - Sequelize.js ORM is used for database access<br/>
+    - Sequelize database migrations is responsible for creating article table in postgress database <br/>
+    - The models folder contains files index.js for the ORM initialization and article.js which represents article model.<br/>

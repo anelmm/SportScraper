@@ -7964,7 +7964,7 @@ body {
   margin-left: 180px;
 }
 #header {
-  background: #000 url(../images/header-pic-bg-2.jpg) no-repeat 0 0;
+  background: #000 no-repeat 0 0;
   height: 50px;
   margin-bottom: 5px;
   border-bottom: 1px solid #000;

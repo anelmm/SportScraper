@@ -1,36 +1,25 @@
 var fs        = require("fs");
 var path      = require("path");
 var Sequelize = require("sequelize");
-var sequelize = new Sequelize("postgres", "postgres", "sa", {
-    host: process.env.POSTGRESQL_LOCAL_HOST,
-    dialect: 'postgres',
-    dialectOptions: {
-        ssl: false
-    },
-    define: {
-        timestamps: false
-    },
-    freezeTableName: true,
-    pool: {
-        max: 9,
-        min: 0,
-        idle: 10000
-    }
-});
+var env       = process.env.NODE_ENV || 'development';
+var config    = require(__dirname + '/../config.json')[env];
+
+config.database, config.username, config.password, config
+var sequelize = new Sequelize(config.database, config.username, config.password, config);
 
 var db = {};
 
 fs
     .readdirSync(__dirname)
-    .filter(function(file) {
+    .filter((file) => {
         return (file.indexOf(".") !== 0) && (file !== "index.js");
     })
-    .forEach(function(file) {
+    .forEach((file) => {
         var model = sequelize["import"](path.join(__dirname, file));
         db[model.name] = model;
     });
 
-Object.keys(db).forEach(function(modelName) {
+Object.keys(db).forEach((modelName) => {
     if ("associate" in db[modelName]) {
         db[modelName].associate(db);
     }

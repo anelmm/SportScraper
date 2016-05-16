@@ -181,7 +181,7 @@ body{text-align:center;background:#d7d6d6 url(../img/container-bg.png) repeat-x 
 #container{width:660px;text-align:left;margin:7px auto 0}
 #container_1020{width:1020px;text-align:center;margin:7px auto 0}
 #container_1020 #footer{margin-left: 180px}
-#header{background:#000 url(../images/header-pic-bg-2.jpg) no-repeat 0 0;height:50px;margin-bottom:5px;border-bottom:1px solid #000}
+#header{background:#000 no-repeat 0 0;height:50px;margin-bottom:5px;border-bottom:1px solid #000}
 #top_logo img{float:left;margin-right:8px}
 #gt_emblems_line{height:32px;width:970px;text-align:left;margin:0 auto}
 hr.gt_emblems_line_hr{border-top:1px solid #303030;margin:0}

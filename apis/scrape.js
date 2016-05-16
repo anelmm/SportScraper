@@ -4,13 +4,15 @@ var urlParser = require("url");
 var path = require("path");
 var fs = require('fs');
 var models = require('../models');
+var env = process.env.NODE_ENV || 'development';
+var config = require(__dirname + '/../config.json')[env];
 
-function replaceAndTrim(str){
+let replaceAndTrim = (str) => {
    return str.replace(/(?:\r\n|\r|\n|\")/g, '').trim();
 }
 
-var download = function(uri, filename){
-  request.head(uri, function(err, res, body){
+let download =(uri, filename) => {
+  request.head(uri, (err, res, body) => {
     console.log('content-type:', res.headers['content-type']);
     console.log('content-length:', res.headers['content-length']);
 
@@ -18,7 +20,7 @@ var download = function(uri, filename){
   });
 };
 
-function handleScrapElement(a, articleList, isMainBool){
+ let handleScrapElement = (a, articleList, isMainBool) => {
 		var json = { title : "",image:"", subTitle: "", text : "", author : "", creationDate : "", isMain : isMainBool};
 		json.subTitle= replaceAndTrim(a.children('header').children('hgroup').children('h3').text());
                 json.title = replaceAndTrim(a.children('header').children('hgroup').children('h2').text());
@@ -28,7 +30,7 @@ function handleScrapElement(a, articleList, isMainBool){
 		
 		var imgUrl = a.children('a').children('img').attr('src').toString(); 	
                 var parsed = urlParser.parse(imgUrl);
-                json.image = 'img/' + path.basename(parsed.pathname);
+                json.image = 'img/tmp/' + path.basename(parsed.pathname);
 
 		articleList.push(json);
 
@@ -46,11 +48,11 @@ function handleScrapElement(a, articleList, isMainBool){
                 download(imgUrl, json.image);
 }
 
-exports.scrape = function (req, res){
+exports.scrape = (req, res) => {
     
-    var url = 'http://sportsport.ba/';
+    var url = config.ScrapUrl;
 
-    request(url, function(error, response, html){
+    request(url, (error, response, html) => {
         if(!error){
             var $ = cheerio.load(html);
 	    var articleList = [];
